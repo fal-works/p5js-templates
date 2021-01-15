@@ -1,1 +1,11 @@
 theme: jekyll-theme-slate
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/flowchart.png
+      twitter:
+        username: falworks
+        card: summary
+
+title: p5.js Templates
