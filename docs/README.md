@@ -80,3 +80,8 @@ For example, you can create a `docs` directory and save `index.html` there, toge
 - Adding `defer` attribute to the [\<script\> tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) enables the JavaScript files to be loaded asynchronously without blocking the HTML parser. Do not use `async` attribute because the order is important in our case using p5.js.
 
 - The CSS file in each template removes margin/padding and sets `display: block` for the canvas. This is useful if you create sketches that fit to the entire window.
+
+
+## Developer's website
+
+[FAL Works - https://www.fal-works.com/](https://www.fal-works.com/) - with a bunch of Processing/p5.js sketches.
