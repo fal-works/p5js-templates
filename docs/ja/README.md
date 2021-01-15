@@ -1,5 +1,7 @@
 # より良いコーディング体験を。
 
+<p><a href="https://twitter.com/intent/tweet?url=https://fal-works.github.io/p5js-templates/ja/&text=p5.js+Templates&hashtags=p5js" target="blank_"><strong>[ -> Tweet ]</strong></a></p>
+
 [en](../) / **ja**
 
 <img src="../images/flowchart.png" alt="p5.js Template flowchart image" title="p5.js Template" width="640" height="320">
