@@ -1,10 +1,10 @@
-# p5.js Templates
+# About
 
-Collection of template projects for creating [p5.js](https://p5js.org/) sketches.
+This is a collection of GitHub template repositories that might help you create [p5.js](https://p5js.org/) sketches.
 
 Assisted by several tools. On your needs and preferences.
 
-||tool|what's that|
+||Tool|What's that|
 |-|-|-|
 |P|[Prettier](https://prettier.io/)|Code formatter|
 |E|[ESLint](https://eslint.org/)|Code linter|
