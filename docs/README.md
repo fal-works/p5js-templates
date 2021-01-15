@@ -1,8 +1,8 @@
-# Happy Coding
+# Better coding experience
 
-This is a set of templates that help you write code and create [p5.js](https://p5js.org/) sketches comfortably.
+This is a set of templates that help you write code and create [p5.js](https://p5js.org/) sketches comfortably.  
 
-Assisted by several tools. On your needs and preferences.
+Assisted by several JavaScript development tools:
 
 ||Tool|What's that|
 |-|-|-|
@@ -15,6 +15,8 @@ For the code editor, [VS Code](https://code.visualstudio.com/) is assumed to be 
 
 
 ## List of templates
+
+Choose one that suits your needs and preferences.
 
 ### [[ P ]](https://github.com/fal-works/p5js-template-p)
 
@@ -44,6 +46,20 @@ In addition: [terser](https://terser.org/) minifies your code for distribution.
 
 ## More details
 
+### Using [Git](https://git-scm.com/) and [GitHub](https://github.co.jp/)
+
+- [Git](https://git-scm.com/) is a version control system, which will track changes to your code and do some other several jobs as well.  
+And [GitHub](https://github.co.jp/) is an online platform for hosting code that are managed by Git.
+
+- Git is useful but might also be a little difficult for programming beginners.  
+Even if you don't use Git, you can still download each p5.js template from GitHub by clicking the "Code" button and then "Download ZIP".
+
+- The `.gitignore` file is for specifying which files are to be ignored by Git.  
+In case you don't use Git, you won't need that file as well.
+
+- If you use Git and store your code on GitHub, you can also publish your sketch with [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages).  
+Create a `docs` directory, and save there `index.html` together with other files to be loaded (which some templates already do in the `dist` directory), and then set the `docs` directory to be published.
+
 ### [VS Code](https://code.visualstudio.com/) configuration
 
 - The `.vscode` directory contains configuration specific to VS Code.
@@ -52,7 +68,7 @@ In addition: [terser](https://terser.org/) minifies your code for distribution.
 
 - By the way VS Code has also its own default formatter. In many cases Prettier might be more useful but sometimes you might rather prefer the default one.
 
-- Some templates require the command-line `npm run build` to be run for building the runnable sketch. Here you can use the shortcut keys `Ctrl`+`Shift`+`B` or `⇧⌘B` instead of manually typing and running the command. This is defined in the file `.vscode/tasks.json`.
+- Some templates require the command-line `npm run build` to be run for building the sketch (in our case, i.e. generating JavaScript files that can be run by browsers). Here you can use the shortcut keys `Ctrl`+`Shift`+`B` or `⇧⌘B` instead of manually typing and running the command. This is defined in the file `.vscode/tasks.json`.
 
 ### [npm](https://docs.npmjs.com/) related files
 
@@ -65,15 +81,6 @@ In addition: [terser](https://terser.org/) minifies your code for distribution.
 - If you don't use pnpm, you can ignore the file `pnpm-lock.yaml`. When installing dependencies, the default `npm` will generate `package-lock.json` instead. These lock files may not be important for you but google around it if you're curious.
 
 - If something doesn't work, try reinstalling npm dependencies and then restarting VS Code.
-
-### Using [Git](https://git-scm.com/)
-
-- [Git](https://git-scm.com/) is a version control system. It will track changes to your code and also does some other several jobs.
-
-- The `.gitignore` file is for specifying which files are to be ignored by Git. In case you don't use Git, you won't need that file as well.
-
-- If you use Git and store your code on [GitHub](https://github.co.jp/), you can also publish your sketch with [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages).  
-Create a `docs` directory, and save there `index.html` together with other files to be loaded (which some templates already do in the `dist` directory), and then set the `docs` directory to be published.
 
 ### HTML/CSS
 

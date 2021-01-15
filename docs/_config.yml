@@ -1,7 +1,12 @@
 theme: jekyll-theme-slate
-image: /images/flowchart.png
+title: p5.js Templates
+
 twitter:
   username: falworks
   card: summary
 
-title: p5.js Templates
+defaults:
+  - scope:
+      path: "" # all
+    values:
+      image: "/images/flowchart.png"
