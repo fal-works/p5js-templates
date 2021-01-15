@@ -1,6 +1,6 @@
 # Better coding experience.
 
-<p><a href="https://twitter.com/intent/tweet?url=https://fal-works.github.io/p5js-templates/&text=p5.js+Templates&hashtags=p5js" target="blank_"><strong>[ -> Tweet ]</strong></a></p>
+<p><a href="https://twitter.com/intent/tweet?url=https://fal-works.github.io/p5js-templates/&text=p5.js+Templates&hashtags=p5js" target="blank_"><strong>>> [ Tweet ]</strong></a></p>
 
 **en** / [ja](./ja/)
 
