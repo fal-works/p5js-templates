@@ -3,7 +3,8 @@ title: p5.js Templates
 
 twitter:
   username: falworks
-  card: summary
+  card: summary_large_image
+  title: p5.js Templates
 
 defaults:
   - scope:
