@@ -69,7 +69,7 @@ Create a `docs` directory, and save there `index.html` together with other files
 
 - By the way VS Code has also its own default formatter. In many cases Prettier might be more useful but sometimes you might rather prefer the default one.
 
-- Some templates require the command-line `npm run build` to be run for building the sketch (in our case, i.e. generating JavaScript files that can be run on browsers). Here you can use the shortcut keys `Ctrl`+`Shift`+`B` or `⇧⌘B` instead of manually typing and running the command. This is defined in the file `.vscode/tasks.json`.
+- Some templates require the command-line `npm run build` to be run for building the sketch (in our case, i.e. generating JavaScript files that can be run on browsers). Here you can use the shortcut keys `Ctrl+Shift+B` or `⇧⌘B` instead of manually typing and running the command. This is defined in the file `.vscode/tasks.json`.
 
 ### [npm](https://docs.npmjs.com/) related files
 
