@@ -1,4 +1,4 @@
-# Better coding experience
+# Better coding experience.
 
 **en** / [ja](./ja/)
 
