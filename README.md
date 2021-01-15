@@ -57,7 +57,6 @@ In addition: [terser](https://terser.org/) minifies your code for distribution.
 
 - If something doesn't work, try reinstalling npm dependencies and then restarting VS Code.
 
-
 ### Using [git](https://git-scm.com/)
 
 - [git](https://git-scm.com/) is a version control system. It will track changes to your code and also does other several jobs.
@@ -76,7 +75,6 @@ For example, you can create a `docs` directory and save `index.html` there, toge
 - By the way VS Code has also its own default formatter. In many cases Prettier might be more useful but sometimes you might rather prefer the default one.
 
 - Some templates require the command-line `npm run build` to be run for building the runnable sketch. Here you can use the shortcut keys `Ctrl`+`Shift`+`B` or `⇧⌘B` instead of manually typing and running the command. This is defined in the file `.vscode/tasks.json`.
-
 
 ### HTML/CSS
 
