@@ -16,7 +16,7 @@ Assisted by several JavaScript development tools:
 
 However you don't necessarily have to use all of them (see the template list below).
 
-For the code editor, [VS Code](https://code.visualstudio.com/) is assumed to be used.
+For the code editor, [Visual Studio Code](https://code.visualstudio.com/) (or VS Code in short) is assumed to be used.
 
 
 ## List of templates
@@ -51,7 +51,7 @@ In addition: [terser](https://terser.org/) minifies your code for distribution.
 
 ## More details
 
-### Using [Git](https://git-scm.com/) and [GitHub](https://github.co.jp/)
+### Using Git and GitHub
 
 - [Git](https://git-scm.com/) is a version control system, which will track changes to your code and do some other several jobs as well.  
 And [GitHub](https://github.co.jp/) is an online platform for hosting code that are managed by Git.
@@ -65,17 +65,17 @@ In case you don't use Git, you won't need that file as well.
 - If you use Git and store your code on GitHub, you can also publish your sketch with [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages).  
 Create a `docs` directory, and save there `index.html` together with other files to be loaded (which some templates already do in the `dist` directory), and then set the `docs` directory to be published.
 
-### [VS Code](https://code.visualstudio.com/) configuration
+### VS Code configuration
 
-- The `.vscode` directory contains configuration specific to VS Code.
+- The `.vscode` directory contains configuration specific to [VS Code](https://code.visualstudio.com/).
 
-- Running Prettier and ESLint automatically is enabeld by `.vscode/settings.json`. You might also have your own settings that globally apply to all of your projects, but the local ones will override the global ones.
+- Running Prettier and ESLint automatically is enabeld by `.vscode/settings.json`. You might also have your own settings that globally apply to all of your projects, but the local ones (in `.vscode` of each project) will override the global ones.
 
 - By the way VS Code has also its own default formatter. In many cases Prettier might be more useful but sometimes you might rather prefer the default one.
 
 - Some templates require the command-line `npm run build` to be run for building the sketch (in our case, i.e. generating JavaScript files that can be run on browsers). Here you can use the shortcut keys `Ctrl+Shift+B` or `⇧⌘B` instead of manually typing and running the command. This is defined in the file `.vscode/tasks.json`.
 
-### [npm](https://docs.npmjs.com/) related files
+### npm related files
 
 - [npm](https://docs.npmjs.com/) is a large database on the web, from which you can download several packages including the tools described above. It also provides a package manager tool (included in Node.js), which is a CLI (i.e. `npm` commands).
 
