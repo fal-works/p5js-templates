@@ -1,5 +1,7 @@
 # Better coding experience
 
+**en** / [ja](./ja/)
+
 <img src="./images/flowchart.png" alt="p5.js Template flowchart image" title="p5.js Template" width="640" height="320">
 
 This is a set of GitHub template repositories for [p5.js](https://p5js.org/).  
@@ -8,7 +10,7 @@ Helps you write code and create sketches comfortably.
 Assisted by several JavaScript development tools:
 
 ||Tool|What's that|
-|-|-|-|
+|---|---|---|
 |P|[Prettier](https://prettier.io/)|Code formatter|
 |E|[ESLint](https://eslint.org/)|Code linter|
 |T|[TypeScript](https://www.typescriptlang.org/)|Typed JavaScript|

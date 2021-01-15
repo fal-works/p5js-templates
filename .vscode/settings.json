@@ -10,6 +10,7 @@
   "markdownlint.config": {
     "MD007": { "indent": 4 },
     "MD012": { "maximum": 2 },
+    "MD026": false,
     "MD033": false
   },
 
