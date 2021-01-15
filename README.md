@@ -57,13 +57,13 @@ In addition: [terser](https://terser.org/) minifies your code for distribution.
 
 - If something doesn't work, try reinstalling npm dependencies and then restarting VS Code.
 
-### Using [git](https://git-scm.com/)
+### Using [Git](https://git-scm.com/)
 
-- [git](https://git-scm.com/) is a version control system. It will track changes to your code and also does other several jobs.
+- [Git](https://git-scm.com/) is a version control system. It will track changes to your code and also does other several jobs.
 
-- The `.gitignore` file is for specifying which files are to be ignored by git. In case you don't use git, you won't need that file as well.
+- The `.gitignore` file is for specifying which files are to be ignored by Git. In case you don't use Git, you won't need that file as well.
 
-- If you use git and store your code on [GitHub](https://github.co.jp/), you can also publish your sketch with [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages).  
+- If you use Git and store your code on [GitHub](https://github.co.jp/), you can also publish your sketch with [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages).  
 For example, you can create a `docs` directory and save `index.html` there, together with other files to be loaded (which some templates already do with the `dist` directory), and then set the `docs` directory to be published.
 
 ### [VS Code](https://code.visualstudio.com/) configuration
