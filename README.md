@@ -45,11 +45,21 @@ In addition: [terser](https://terser.org/) minifies your code for distribution.
 
 ## More details
 
+### [VS Code](https://code.visualstudio.com/) configuration
+
+- The `.vscode` directory contains configuration specific to VS Code.
+
+- Running Prettier and ESLint automatically is enabeld by `.vscode/settings.json`. You might also have your own settings that globally apply to all of your projects, but the local ones will override the global ones.
+
+- By the way VS Code has also its own default formatter. In many cases Prettier might be more useful but sometimes you might rather prefer the default one.
+
+- Some templates require the command-line `npm run build` to be run for building the runnable sketch. Here you can use the shortcut keys `Ctrl`+`Shift`+`B` or `⇧⌘B` instead of manually typing and running the command. This is defined in the file `.vscode/tasks.json`.
+
 ### [npm](https://docs.npmjs.com/) related files
 
 - [npm](https://docs.npmjs.com/) is a large database on the web, from which you can download several packages including the tools described above. It also provides a package manager tool (included in Node.js), which is a CLI (i.e. `npm` commands).
 
-- The `package.json` file is necessary for using `npm` or other package managers. It contains several metadata (including package dependencies) and scripts (which can be run by `npm run (script name)`).
+- The `package.json` file is necessary for using `npm` or other package managers. It contains several metadata (including package dependencies) and user-defined scripts as well (which are defiend in the `scripts` field and can be run by command-line `npm run (script name)`).
 
 - Instruction of each template (except for Template P) tells you to use the `npm` command, but it is also recommended to use [pnpm](https://pnpm.js.org/) instead (which is also used for developing these templates).
 
@@ -65,16 +75,6 @@ In addition: [terser](https://terser.org/) minifies your code for distribution.
 
 - If you use Git and store your code on [GitHub](https://github.co.jp/), you can also publish your sketch with [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages).  
 For example, you can create a `docs` directory and save `index.html` there, together with other files to be loaded (which some templates already do with the `dist` directory), and then set the `docs` directory to be published.
-
-### [VS Code](https://code.visualstudio.com/) configuration
-
-- The `.vscode` directory contains configuration specific to VS Code.
-
-- Running Prettier and ESLint automatically is enabeld by `.vscode/settings.json`. You might also have your own settings that globally apply to all of your projects, but the local ones will override the global ones.
-
-- By the way VS Code has also its own default formatter. In many cases Prettier might be more useful but sometimes you might rather prefer the default one.
-
-- Some templates require the command-line `npm run build` to be run for building the runnable sketch. Here you can use the shortcut keys `Ctrl`+`Shift`+`B` or `⇧⌘B` instead of manually typing and running the command. This is defined in the file `.vscode/tasks.json`.
 
 ### HTML/CSS
 
