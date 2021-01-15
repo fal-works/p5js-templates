@@ -12,6 +12,8 @@ Assisted by several JavaScript development tools:
 |T|[TypeScript](https://www.typescriptlang.org/)|Typed JavaScript|
 |R|[Rollup](https://rollupjs.org/)|Module bundler|
 
+However you don't necessarily have to use all of them (see the template list below).
+
 For the code editor, [VS Code](https://code.visualstudio.com/) is assumed to be used.
 
 
