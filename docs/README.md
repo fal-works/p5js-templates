@@ -58,7 +58,7 @@ In addition: [terser](https://terser.org/) minifies your code for distribution.
 
 - [npm](https://docs.npmjs.com/) is a large database on the web, from which you can download several packages including the tools described above. It also provides a package manager tool (included in Node.js), which is a CLI (i.e. `npm` commands).
 
-- The `package.json` file is necessary for using `npm` or other package managers. It contains several metadata (including package dependencies) and user-defined scripts as well (which are defiend in the `scripts` field and can be run by command-line `npm run (script name)`).
+- The `package.json` file is necessary for using `npm` or other package managers. It contains several metadata (including package dependencies) and user-defined scripts as well (which are defined in the `scripts` field and can be run by command-line `npm run (script name)`).
 
 - Instruction of each template (except for Template P) tells you to use the `npm` command, but it is also recommended to use [pnpm](https://pnpm.js.org/) instead (which is also used for developing these templates).
 
@@ -68,16 +68,16 @@ In addition: [terser](https://terser.org/) minifies your code for distribution.
 
 ### Using [Git](https://git-scm.com/)
 
-- [Git](https://git-scm.com/) is a version control system. It will track changes to your code and also does other several jobs.
+- [Git](https://git-scm.com/) is a version control system. It will track changes to your code and also does some other several jobs.
 
 - The `.gitignore` file is for specifying which files are to be ignored by Git. In case you don't use Git, you won't need that file as well.
 
 - If you use Git and store your code on [GitHub](https://github.co.jp/), you can also publish your sketch with [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages).  
-For example, you can create a `docs` directory and save `index.html` there, together with other files to be loaded (which some templates already do with the `dist` directory), and then set the `docs` directory to be published.
+Create a `docs` directory, and save there `index.html` together with other files to be loaded (which some templates already do in the `dist` directory), and then set the `docs` directory to be published.
 
 ### HTML/CSS
 
-- Adding `defer` attribute to the [\<script\> tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) enables the JavaScript files to be loaded asynchronously without blocking the HTML parser. Do not use `async` attribute because the order is important in our case using p5.js.
+- Adding `defer` attribute to the [\<script\> tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)s enables the JavaScript files to be loaded asynchronously without blocking the HTML parser. Do not use `async` attribute because the order of execution is important in our case using p5.js.
 
 - The CSS file in each template removes margin/padding and sets `display: block` for the canvas. This is useful if you create sketches that fit to the entire window.
 
