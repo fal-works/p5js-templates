@@ -6,5 +6,19 @@
     "editor.quickSuggestions": false,
     "editor.tabSize": 4,
     "files.insertFinalNewline": true
+  },
+  "markdownlint.config": {
+    "MD007": { "indent": 4 },
+    "MD012": { "maximum": 2 },
+    "MD033": false
+  },
+
+  "[yaml]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
