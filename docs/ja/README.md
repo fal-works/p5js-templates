@@ -95,7 +95,7 @@ Git を使わない場合はこのファイルも不要です。
 
 ### HTML/CSS
 
-- [\<script\> タグ](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) に `defer` 属性を追加すると、HTML パーサーを停止させずに JavaScript ファイルを非同期でロードできます。`async` 属性は使わないよう。p5.js を使うときに実行順序が重要なためです。
+- [\<script\> タグ](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) に `defer` 属性を追加すると、HTML パーサーを停止させずに JavaScript ファイルを非同期でロードできます。`async` 属性は使わないようにしましょう。p5.js の本体とスケッチの実行順序が重要なためです。
 
 - 各テンプレートの CSS ファイルは、margin/padding をなくして、さらにキャンバスに `display: block` を設定します。これは、ウィンドウ全体を使うようなスケッチを作るときに役に立ちます。
 
