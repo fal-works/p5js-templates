@@ -1,6 +1,7 @@
 # Better coding experience
 
-This is a set of templates that help you write code and create [p5.js](https://p5js.org/) sketches comfortably.  
+This is a set of GitHub template repositories for [p5.js](https://p5js.org/).  
+Helps you write code and create sketches comfortably.
 
 Assisted by several JavaScript development tools:
 
