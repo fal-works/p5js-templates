@@ -73,6 +73,8 @@ For example, you can create a `docs` directory and save `index.html` there, toge
 
 - Running Prettier and ESLint automatically is enabeld by `.vscode/settings.json`. You might also have your own settings that globally apply to all of your projects, but the local ones will override the global ones.
 
+- By the way VS Code has also its own default formatter. In many cases Prettier might be more useful but sometimes you might rather prefer the default one.
+
 - Some templates require the command-line `npm run build` to be run for building the runnable sketch. Here you can use the shortcut keys `Ctrl`+`Shift`+`B` or `⇧⌘B` instead of manually typing and running the command. This is defined in the file `.vscode/tasks.json`.
 
 
