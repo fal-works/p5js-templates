@@ -1,6 +1,6 @@
 # Happy Coding
 
-This is a collection of templates that might help you write code and create [p5.js](https://p5js.org/) sketches comfortably.
+This is a set of templates that help you write code and create [p5.js](https://p5js.org/) sketches comfortably.
 
 Assisted by several tools. On your needs and preferences.
 
@@ -38,8 +38,7 @@ Combination of the two above.
 
 ### [[ PETR+ ]](https://github.com/fal-works/p5js-template-petr-plus)
 
-No more global pollution. [p5.js instance mode](https://github.com/processing/p5.js/wiki/Global-and-instance-mode).
-
+No more global pollution. [p5.js instance mode](https://github.com/processing/p5.js/wiki/Global-and-instance-mode).  
 In addition: [terser](https://terser.org/) minifies your code for distribution.
 
 
