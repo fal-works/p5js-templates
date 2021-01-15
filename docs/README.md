@@ -51,6 +51,9 @@ No more global pollution. [p5.js instance mode](https://github.com/processing/p5
 In addition: [terser](https://terser.org/) minifies your code for distribution.
 
 
+----
+
+
 ## More details
 
 ### Using Git and GitHub
@@ -98,6 +101,9 @@ Create a `docs` directory, and save there `index.html` together with other files
 - Some VS Code extensions for HTML:
     - With [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser) you can open any HTML file directly from VS Code.
     - If you load any asset file (e.g. an image) in your sketch, simply opening the HTML file won't work well. You may want to open it with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). It also refreshes the page every time a change is made to the JavaScript file.
+
+
+----
 
 
 ## Developer's website

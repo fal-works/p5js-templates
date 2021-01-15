@@ -51,7 +51,10 @@
 ついでに、[terser](https://terser.org/) で配布用のコードを圧縮します。
 
 
-## 詳細
+----
+
+
+## さらなる詳細
 
 ### Git と GitHub
 
@@ -99,6 +102,9 @@ Git を使わない場合はこのファイルも不要です。
 - HTML 用の VS Code 拡張もいくつかあります。
     - [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser) では、任意の HTML ファイルを VS Code から直接開くことができます。
     - スケッチのなかで何らかのアセットファイル（画像とか）をロードする場合、単純に HTML ファイルを開くだけだとうまく動きません。[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) で開きましょう。これはさらに、JavaScript ファイルに変更が加えられるたびにページをリフレッシュしてくれます。
+
+
+----
 
 
 ## 開発者Webサイト
