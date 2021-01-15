@@ -1,4 +1,4 @@
-# About
+# Create [p5.js](https://p5js.org/) sketches with typical JavaScript development tools
 
 This is a collection of GitHub template repositories that might help you create [p5.js](https://p5js.org/) sketches.
 
