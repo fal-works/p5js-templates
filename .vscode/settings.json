@@ -1,0 +1,10 @@
+{
+  "files.eol": "\n",
+
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false,
+    "editor.tabSize": 4,
+    "files.insertFinalNewline": true
+  }
+}
