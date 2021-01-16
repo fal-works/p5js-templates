@@ -92,7 +92,9 @@ Create a `docs` directory, and save there `index.html` together with other files
 
 - If you don't use pnpm, you can ignore the file `pnpm-lock.yaml`. When installing dependencies, the default `npm` will generate `package-lock.json` instead. These lock files may not be important for you but google around it if you're curious.
 
-- If something doesn't work, try reinstalling npm dependencies and then restarting VS Code.
+- If something doesn't work related to npm packages, try the below:
+    1. Reload the VS Code window (`Ctrl+P` or `⌘+P` -> type `reload window` then `ENTER`).
+    2. If still not resolved, reinstall package dependencies (`npm install` or `pnpm install`), then reload the window again.
 
 ### HTML/CSS
 
