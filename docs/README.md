@@ -108,6 +108,8 @@ Create a `docs` directory, and save there `index.html` together with other files
 ----
 
 
-## Developer's website
+## Links
 
-[FAL Works - https://www.fal-works.com/](https://www.fal-works.com/) - with a bunch of Processing/p5.js sketches.
+- FAL Works - <https://www.fal-works.com/>
+
+    The website of the developer of p5.js Templates. With a bunch of Processing/p5.js sketches.

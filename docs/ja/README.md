@@ -109,6 +109,12 @@ Git を使わない場合はこのファイルも不要です。
 ----
 
 
-## 開発者Webサイト
+## リンク
 
-[FAL Works - https://www.fal-works.com/](https://www.fal-works.com/) - Processing や p5.js のスケッチもいろいろあります。
+- FAL Works - <https://www.fal-works.com/>
+
+    p5.js Templates の開発者のWebサイト。Processing や p5.js のスケッチもいろいろあります。
+
+- JavaScript用語集 開発環境関連 - <https://zenn.dev/fal/articles/js-dev-env-glossary-jan-2021>
+
+    各種用語やツールなどの解説記事です。
