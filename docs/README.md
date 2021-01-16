@@ -76,7 +76,7 @@ Create a `docs` directory, and save there `index.html` together with other files
 
 - The `.vscode` directory contains configuration specific to [VS Code](https://code.visualstudio.com/).
 
-- Running Prettier and ESLint automatically is enabeld by `.vscode/settings.json`. You might also have your own settings that globally apply to all of your projects, but the local ones (in `.vscode` of each project) will override the global ones.
+- Each time you save the code you are editing, Prettier formats it and ESLint fixes some errors. This automatic behavior is enabled by `.vscode/settings.json`. You might also have your own settings that globally apply to all of your projects, but the local ones (in `.vscode` of each project) will override the global ones.
 
 - By the way VS Code has also its own default formatter. In many cases Prettier might be more useful but sometimes you might rather prefer the default one.
 
