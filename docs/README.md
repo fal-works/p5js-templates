@@ -4,7 +4,7 @@
 
 **en** / [ja](./ja/)
 
-<img src="./images/flowchart.png" alt="p5.js Template flowchart image" title="p5.js Template" width="640" height="320">
+<img src="./images/flowchart.png" alt="p5.js Templates flowchart image" title="p5.js Templates" width="640" height="320">
 
 This is a set of GitHub template repositories for [p5.js](https://p5js.org/).  
 Helps you write code and create sketches comfortably.

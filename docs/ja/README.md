@@ -4,7 +4,7 @@
 
 [en](../) / **ja**
 
-<img src="../images/flowchart.png" alt="p5.js Template flowchart image" title="p5.js Template" width="640" height="320">
+<img src="../images/flowchart.png" alt="p5.js Templates flowchart image" title="p5.js Templates" width="640" height="320">
 
 これは、[p5.js](https://p5js.org/) 用の GitHub テンプレートリポジトリーの集まりです。  
 コードを書いてスケッチを作るのを快適にしてくれます。
