@@ -6,7 +6,7 @@
 
 <img src="../images/flowchart.png" alt="p5.js Templates flowchart image" title="p5.js Templates" width="640" height="320">
 
-これは、[p5.js](https://p5js.org/) 用の GitHub テンプレートリポジトリーの集まりです。  
+これは、**[p5.js](https://p5js.org/)** 用の GitHub テンプレートリポジトリーの集まりです。  
 コードを書いてスケッチを作るのを快適にしてくれます。
 
 次のように、いろいろな JavaScript 開発用ツールの助けを借りています。
