@@ -90,7 +90,7 @@ Create a `docs` directory, and save there `index.html` together with other files
 
 - Instruction of each template (except for Template P) tells you to use the `npm` command, but it is also recommended to use [pnpm](https://pnpm.js.org/) instead (which is also used for developing these templates).
 
-- If you don't use pnpm, you can ignore the file `pnpm-lock.yaml`. When installing dependencies, the default `npm` will generate `package-lock.json` instead. These lock files may not be important for you but google around it if you're curious.
+- If you don't use pnpm, you can remove the file `pnpm-lock.yaml`. When installing dependencies, the default `npm` will generate `package-lock.json` instead. These lock files may not be important for you but google around it if you're curious.
 
 - If something doesn't work related to npm packages, try the below:
     1. Reload the VS Code window (`Ctrl+P` or `⌘+P` -> type `reload window` then `ENTER`).
@@ -105,6 +105,14 @@ Create a `docs` directory, and save there `index.html` together with other files
 - Some VS Code extensions for HTML:
     - With [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser) you can open any HTML file directly from VS Code.
     - If you load any asset file (e.g. an image) in your sketch, simply opening the HTML file won't work well. You may want to open it with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). It also refreshes the page every time a change is made to the JavaScript file.
+
+### License
+
+- Each template contains a `LICENSE` file, and its content is [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) (CC0-1.0 in short). This means that you can copy and use the template without any restrictions.
+
+- If you create a sketch using one of these templates and want to publish it including the code:
+    - You may want to remove `LICENSE` (or attach another license instead) to protect your own code.
+    - There are several open source licenses and CC0 is one of the least restrictive. It may also take a little time to learn about copyright; let's check them out.
 
 
 ----
