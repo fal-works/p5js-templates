@@ -87,7 +87,7 @@ Git を使わない場合はこのファイルも不要です。
 - [npm](https://docs.npmjs.com/) は、上で書いたツールを含め様々なパッケージをダウンロードできる、Web上の大きなデータベースです。同時に、パッケージ管理のツールも提供します（Node.js に含まれています）。そのツールというのは具体的には CLI、つまり `npm` コマンドです。
 
 - `package.json` ファイルは、`npm` あるいはその他のパッケージ管理ツールを使うのに必要です。これには、パッケージ間の依存関係の情報などといった各種メタデータが書かれています。  
-また、ユーザー定義のスクリプトが含まれていることもあります（"npm script" と呼ばれます）。`scripts` という項目で設定されていて、コマンドラインで `npm run (スクリプト名)` として実行できます。
+また、ユーザー定義のスクリプトが含まれていることもあります（"npm script" と呼ばれます）。`scripts` という項目で設定されていて、コマンドラインで `npm run (スクリプト名)` で実行できます。
 
 - 各テンプレートの説明の中で、`npm` コマンドを使うよう書いてあるところがあります（Template P を除く）。このとき、代わりに [pnpm](https://pnpm.js.org/) を使うのもおすすめです。これらのテンプレートを作るときにも使われています。
 
@@ -101,11 +101,11 @@ Git を使わない場合はこのファイルも不要です。
 
 - 各テンプレートの CSS ファイルは、margin/padding をなくして、さらにキャンバスに `display: block` を設定します。これは、ウィンドウ全体を使うようなスケッチを作るときに役に立ちます。
 
+- [\<script\> タグ](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) に `defer` 属性を追加すると、HTML パーサーを停止させずに JavaScript ファイルを非同期でロードできます。p5.js の本体とスケッチの実行順序が重要なため、`async` 属性は使わないようにしましょう。
+
 - HTML 用の VS Code 拡張もいくつかあります。
     - [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser) では、任意の HTML ファイルを VS Code から直接開くことができます。
     - スケッチのなかで何らかのアセットファイル（画像とか）をロードする場合、単純に HTML ファイルを開くだけだとうまく動きません。[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) で開きましょう。これはさらに、JavaScript ファイルに変更が加えられるたびにページをリフレッシュしてくれます。
-
-- [\<script\> タグ](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) に `defer` 属性を追加すると、HTML パーサーを停止させずに JavaScript ファイルを非同期でロードできます。p5.js の本体とスケッチの実行順序が重要なため、`async` 属性は使わないようにしましょう。
 
 ### ESLint の設定
 
