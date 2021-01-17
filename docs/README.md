@@ -80,14 +80,14 @@ Create a `docs` directory, and save there `index.html` together with other files
 
 - By the way VS Code has also its own default formatter. In many cases Prettier might be more useful but sometimes you might rather prefer the default one.
 
-- Some templates require the command-line `npm run build` to be run for building the sketch (in our case, i.e. generating JavaScript files that can be run on browsers). Here you can use the shortcut keys `Ctrl+Shift+B` or `⇧⌘B` instead of manually typing and running the command. This is defined in the file `.vscode/tasks.json`.
+- Some templates require the command-line `npm run build` to be run for building the sketch (see also "Build scripts" below). Here you can use the shortcut keys `Ctrl+Shift+B` or `⇧⌘B` instead of manually typing and running the command. This is defined in the file `.vscode/tasks.json`.
 
 ### npm related files
 
 - [npm](https://docs.npmjs.com/) is a large database on the web, from which you can download several packages including the tools described above. It also provides a package manager tool (included in Node.js), which is a CLI (i.e. `npm` commands).
 
 - The `package.json` file is necessary for using `npm` or other package managers. It contains several metadata including package dependencies.  
-It may also contain some user-defined scripts, which are defined in the `scripts` field and can be run by command-line `npm run (script name)`.
+It may also contain some user-defined scripts (called "npm scripts"), which are defined in the `scripts` field and can be run by command-line `npm run (script name)`.
 
 - Instruction of each template (except for Template P) tells you to use the `npm` command, but it is also recommended to use [pnpm](https://pnpm.js.org/) instead (which is also used for developing these templates).
 
@@ -115,6 +115,10 @@ It may also contain some user-defined scripts, which are defined in the `scripts
 
 - Each template is designed to use [Prettier](https://prettier.io/) for formatting code and do not enable ESLint rules that only affect the appearance of the code.  
 However, the `lines-around-comment` rule is enabled, because the behavior of this rule is not covered by Prettier. Unfortunately a [TypeScript](https://www.typescriptlang.org/) version of this rule [does not exist](https://github.com/typescript-eslint/typescript-eslint/issues/1933) at the time writing this.
+
+### Build scripts
+
+- Some templates use [TypeScript](https://www.typescriptlang.org/) and/or [Rollup](https://rollupjs.org/) for building the JavaScript file to be run on browsers. This process is automated and programmed with npm scripts (see above).
 
 ### License
 
