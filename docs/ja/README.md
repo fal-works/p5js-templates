@@ -99,13 +99,13 @@ Git を使わない場合はこのファイルも不要です。
 
 ### HTML/CSS
 
-- [\<script\> タグ](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) に `defer` 属性を追加すると、HTML パーサーを停止させずに JavaScript ファイルを非同期でロードできます。`async` 属性は使わないようにしましょう。p5.js の本体とスケッチの実行順序が重要なためです。
-
 - 各テンプレートの CSS ファイルは、margin/padding をなくして、さらにキャンバスに `display: block` を設定します。これは、ウィンドウ全体を使うようなスケッチを作るときに役に立ちます。
 
 - HTML 用の VS Code 拡張もいくつかあります。
     - [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser) では、任意の HTML ファイルを VS Code から直接開くことができます。
     - スケッチのなかで何らかのアセットファイル（画像とか）をロードする場合、単純に HTML ファイルを開くだけだとうまく動きません。[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) で開きましょう。これはさらに、JavaScript ファイルに変更が加えられるたびにページをリフレッシュしてくれます。
+
+- [\<script\> タグ](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) に `defer` 属性を追加すると、HTML パーサーを停止させずに JavaScript ファイルを非同期でロードできます。p5.js の本体とスケッチの実行順序が重要なため、`async` 属性は使わないようにしましょう。
 
 ### ESLint の設定
 
