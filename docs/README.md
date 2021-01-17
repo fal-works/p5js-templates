@@ -86,7 +86,8 @@ Create a `docs` directory, and save there `index.html` together with other files
 
 - [npm](https://docs.npmjs.com/) is a large database on the web, from which you can download several packages including the tools described above. It also provides a package manager tool (included in Node.js), which is a CLI (i.e. `npm` commands).
 
-- The `package.json` file is necessary for using `npm` or other package managers. It contains several metadata (including package dependencies) and user-defined scripts as well (which are defined in the `scripts` field and can be run by command-line `npm run (script name)`).
+- The `package.json` file is necessary for using `npm` or other package managers. It contains several metadata including package dependencies.  
+It may also contain some user-defined scripts, which are defined in the `scripts` field and can be run by command-line `npm run (script name)`.
 
 - Instruction of each template (except for Template P) tells you to use the `npm` command, but it is also recommended to use [pnpm](https://pnpm.js.org/) instead (which is also used for developing these templates).
 
