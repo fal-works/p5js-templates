@@ -106,6 +106,15 @@ Create a `docs` directory, and save there `index.html` together with other files
     - With [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser) you can open any HTML file directly from VS Code.
     - If you load any asset file (e.g. an image) in your sketch, simply opening the HTML file won't work well. You may want to open it with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). It also refreshes the page every time a change is made to the JavaScript file.
 
+### ESLint config
+
+- The `.eslintrc.json` file contains configuration information of [ESLint](https://eslint.org/).
+
+- ESLint is highly configurable; [here](https://eslint.org/docs/rules/) you can see a long list of rules.
+
+- Each template is designed to use [Prettier](https://prettier.io/) for formatting code and do not enable ESLint rules that only affect the appearance of the code.  
+However, the `lines-around-comment` rule is enabled, because the behavior of this rule is not covered by Prettier. Unfortunately a [TypeScript](https://www.typescriptlang.org/) version of this rule [does not exist](https://github.com/typescript-eslint/typescript-eslint/issues/1933) at the time writing this.
+
 ### License
 
 - Each template contains a `LICENSE` file, and its content is [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) (CC0-1.0 in short). This means that you can copy and use the template without any restrictions.

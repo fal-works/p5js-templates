@@ -107,6 +107,15 @@ Git を使わない場合はこのファイルも不要です。
     - [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser) では、任意の HTML ファイルを VS Code から直接開くことができます。
     - スケッチのなかで何らかのアセットファイル（画像とか）をロードする場合、単純に HTML ファイルを開くだけだとうまく動きません。[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) で開きましょう。これはさらに、JavaScript ファイルに変更が加えられるたびにページをリフレッシュしてくれます。
 
+### ESLint の設定
+
+- `.eslintrc.json` ファイルには [ESLint](https://eslint.org/) の設定情報が書かれています。
+
+- ESLint はいろいろな設定が可能で、[ここ](https://eslint.org/docs/rules/) で各種ルールの長大なリストを確認できます。
+
+- 各テンプレートは、コード整形のために [Prettier](https://prettier.io/) を使い、ESLint のルールのうちコードの見た目にしか関係しないものは有効化しないように作られています。  
+ただし、`lines-around-comment` ルールは有効化されています。Prettier がこのルールの動作をカバーしていないためです。残念ながら、このルールの [TypeScript](https://www.typescriptlang.org/) 版はこれを書いている時点では[存在していません](https://github.com/typescript-eslint/typescript-eslint/issues/1933)。
+
 ### ライセンス
 
 - 各テンプレートには `LICENSE` ファイルが入っていて、その内容は [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)（略称 CC0-1.0）です。これは、そのテンプレートをコピペして使ってもよく、それに一切の制約が無いことを意味します。
