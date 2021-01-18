@@ -1,5 +1,34 @@
 # Advanced Topics
 
+## Node.js module resolution
+
+If you separate your source code into multiple files (modules), sometimes you may want use `index.js` for treating any directory as a module.  
+Like this:
+
+```js
+// src/my-module/index.js
+
+export { something };
+```
+
+```js
+// src/main.js
+
+import { something } from "./my-module";
+```
+
+This is allowed in a Node.js style. So you have to install and use a Rollup plugin [@rollup/plugin-node-resolve](https://www.npmjs.com/package/@rollup/plugin-node-resolve) for bundling that code with Rollup.
+
+And if you use TypeScript, you also have to add the following config in `tsconfig.json`:
+
+```json
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+  }
+}
+```
+
 ## Improve the build process for development
 
 Creative coding often involves editing the code over and over again to fine-tune the results. So, if you use [TypeScript](https://www.typescriptlang.org/) or [Rollup](https://rollupjs.org/) or anything else, it may be a little annoying to build the sketch manually and wait for seconds each time.

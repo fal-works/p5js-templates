@@ -1,5 +1,34 @@
 # 上級者向けトピックス
 
+## Node.js のモジュール解決
+
+ソースコードを複数のファイル（モジュール）に分ける場合、`index.js` を置くことで当該ディレクトリーをモジュールとして扱いたいと思うことがあるかもしれません。  
+次のようにです。
+
+```js
+// src/my-module/index.js
+
+export { something };
+```
+
+```js
+// src/main.js
+
+import { something } from "./my-module";
+```
+
+これは Node.js のスタイルで可能になります。なので、このコードを Rollup で扱うためには、Rollup のプラグイン [@rollup/plugin-node-resolve](https://www.npmjs.com/package/@rollup/plugin-node-resolve) をインストールして使う必要があります。
+
+また、TypeScript を使う場合は、次の設定を `tsconfig.json` に追加することも必要です。
+
+```json
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+  }
+}
+```
+
 ## 開発用ビルドプロセスの改善
 
 クリエイティブコーディングでは、何度もコードを編集して結果を微調整することが多いです。なので、[TypeScript](https://www.typescriptlang.org/) や [Rollup](https://rollupjs.org/) などを使う場合、スケッチを毎回ビルドしてそのたびに数秒待つのがちょっと面倒かもしれません。
