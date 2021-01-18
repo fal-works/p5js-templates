@@ -22,10 +22,14 @@ However you don't necessarily have to use all of them (see the template list bel
 
 For the code editor, [Visual Studio Code](https://code.visualstudio.com/) (or VS Code in short) is assumed to be used.
 
+*Note:*  
+These are not for complete beginners and assume that you know about the basics of JavaScript and p5.js.  
+However you don't have to be an expert at all!
+
 
 ## List of templates
 
-Choose one that suits your needs and preferences.
+On your needs and preferences.
 
 ### [[ P ]](https://github.com/fal-works/p5js-template-p)
 

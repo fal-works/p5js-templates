@@ -18,9 +18,13 @@
 |T|[TypeScript](https://www.typescriptlang.org/)|型付き JavaScript|
 |R|[Rollup](https://rollupjs.org/)|モジュールバンドラー|
 
-とはいっても、すべてを使う必要があるわけではありません（下記テンプレートリスト参照）。
+とはいっても、すべてを使う必要があるわけではありません（下記テンプレート一覧を参照）。
 
 コードエディターとしては、[Visual Studio Code](https://code.visualstudio.com/)（略称 VS Code）の利用を想定しています。
+
+注：  
+これらは完全な初心者向けではなく、JavaScript と p5.js の基本について知っていることを想定しています。  
+でもエキスパートである必要はまったくありません。
 
 
 ## テンプレート一覧
