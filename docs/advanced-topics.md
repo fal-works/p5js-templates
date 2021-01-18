@@ -1,5 +1,7 @@
 # Advanced Topics
 
+[> Home](./)
+
 ## Node.js module resolution
 
 If you separate your source code into multiple files (modules), sometimes you may want use `index.js` for treating any directory as a module.  
