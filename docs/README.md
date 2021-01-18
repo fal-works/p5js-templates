@@ -60,6 +60,8 @@ In addition: [terser](https://terser.org/) minifies your code for distribution.
 
 ## More details
 
+You don't necessarily have to read all of these first, but if it helps.
+
 ### Using Git and GitHub
 
 - [Git](https://git-scm.com/) is a version control system, which will track changes to your code and do some other several jobs as well.  
