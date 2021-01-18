@@ -80,7 +80,7 @@ Git を使わない場合はこのファイルも不要です。
 
 - ちなみに VS Code にもデフォルトのフォーマッターが備わっています。多くの場合 Prettier のほうが有用だと思われますが、デフォルトのほうにしたくなるケースもあるかもしれません。
 
-- いくつかのテンプレートでは、スケッチをビルドするために、コマンドラインで `npm run build` を実行する必要があります（下記「npm scripts」も参照）。このとき、手で書いて実行する代わりに、ショートカットキーの `Ctrl+Shift+B` か `⇧⌘B` を使うこともできます。これは `.vscode/tasks.json` のなかで定義されています。
+- いくつかのテンプレートでは、スケッチをビルドするために、コマンドラインで `npm run build` を実行する必要があります（下記「npm scripts」も参照）。このとき、手で書いて実行する代わりに、ショートカットキーの `Ctrl + Shift + B` か `⇧⌘B` を使うこともできます。これは `.vscode/tasks.json` のなかで定義されています。
 
 ### npm 関連のファイル
 
@@ -95,6 +95,17 @@ Git を使わない場合はこのファイルも不要です。
 - npm 関連で何かがうまく動かないときは、以下を試してみてください。
     1. VS Code のウィンドウをリロードする（`Ctrl+P` か `⌘+P` → `reload window` と入力して `ENTER`）
     2. まだダメなら、依存パッケージを再インストール（`npm install` か `pnpm install`）して、再度ウィンドウをリロード
+
+### npm scripts
+
+- いくつかのテンプレートは、ブラウザーで動かすための JavaScript ファイルをビルド（生成）するために [TypeScript](https://www.typescriptlang.org/) や [Rollup](https://rollupjs.org/) を使います。このプロセスは自動化され、npm scripts でプログラムされています。これは `package.json` のなかの `scripts` という項目で設定されていて、コマンドラインで `npm run (コマンド名)` で実行できます。
+
+- npm scripts の構成方法を知るためには、"npm script" とか "npm run-script" とかでググるとよいでしょう。そして次のことをチェックしましょう。
+    - パッケージのグローバルインストールとローカルインストールの違い
+    - `node_modules` ディレクトリーとは何なのか
+    - コマンドを `&` や `&&` で繋げることについて（これによって並列・直列実行ができます）
+    - コマンドの `pre`/`post` プレフィックス
+    - `npx` コマンド
 
 ### HTML/CSS
 
@@ -114,16 +125,6 @@ Git を使わない場合はこのファイルも不要です。
 
 - 各テンプレートは、コード整形のために [Prettier](https://prettier.io/) を使い、ESLint のルールのうちコードの見た目にしか関係しないものは有効化しないように作られています。  
 ただし、`lines-around-comment` ルールは有効化されています。Prettier がこのルールの動作をカバーしていないためです。残念ながら、このルールの [TypeScript](https://www.typescriptlang.org/) 版はこれを書いている時点では[存在していません](https://github.com/typescript-eslint/typescript-eslint/issues/1933)。
-
-### npm scripts
-
-- いくつかのテンプレートは、ブラウザーで動かすための JavaScript ファイルをビルド（生成）するために [TypeScript](https://www.typescriptlang.org/) や [Rollup](https://rollupjs.org/) を使います。このプロセスは自動化され、npm scripts でプログラムされています。これは `package.json` のなかの `scripts` という項目で設定されていて、コマンドラインで `npm run (スクリプト名)` で実行できます。
-
-- npm scripts の構成方法を理解するには、"npm script" とか "npm run-script" とかでググるとよいでしょう。そして次のことをチェックしましょう。
-    - パッケージのグローバルインストールとローカルインストールの違い
-    - `node_modules` ディレクトリーとは何なのか
-    - スクリプトを `&` や `&&` で繋げることについて（これによって並列・直列実行ができます）
-    - `pre`/`post` スクリプト
 
 ### ライセンス
 
