@@ -138,6 +138,15 @@ However, the `lines-around-comment` rule is enabled, because the behavior of thi
     - You may want to remove `LICENSE` (or attach another license instead) to protect your own code.
     - There are several open source licenses and CC0 is one of the least restrictive. It may also take a little time to learn about copyright; let's check them out.
 
+### Advanced
+
+Here are some more information for advanced users (or those who want to be):
+
+- [Advanced Topics](./advanced-topics.md)
+
+However this doesn't mean that the topics in this page are easy enough.  
+Learning takes time.
+
 
 ----
 
