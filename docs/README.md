@@ -132,8 +132,10 @@ However, the `lines-around-comment` rule is enabled, because the behavior of thi
 
 - Each template contains a `LICENSE` file, and its content is [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) (CC0-1.0 in short). This means that you can copy and use the template without any restrictions.
 
+- Templates using [Rollup](https://rollupjs.org/) also attach a `@license` tag when generating the output code (this is configured in the `rollup.config.js` file).
+
 - If you create a sketch using one of these templates and want to publish it including the code:
-    - You may want to remove `LICENSE` (or attach another license instead) to protect your own code.
+    - You may want to remove the license (or attach another one instead) to protect your own code.
     - There are several open source licenses and CC0 is one of the least restrictive. It may also take a little time to learn about copyright; let's check them out.
 
 ### Advanced
