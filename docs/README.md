@@ -100,7 +100,7 @@ Create a `docs` directory, and save there `index.html` together with other files
 
 ### npm scripts
 
-- Some templates use [TypeScript](https://www.typescriptlang.org/) and/or [Rollup](https://rollupjs.org/) for building the JavaScript file to be run on browsers. This process is automated and programmed with npm scripts, which are defined in the `scripts` field in `package.json` and can be run with command-line `npm run (command name)`.
+- Some templates use [TypeScript](https://www.typescriptlang.org/) and/or [Rollup](https://rollupjs.org/) for building a JavaScript file to be run on browsers. This process is automated and programmed with npm scripts, which are defined in the `scripts` field in `package.json` and can be run with command-line `npm run (command name)`.
 
 - For understanding how to construct npm scripts, you may want to google around "npm scripts" or "npm run-script" or something. And check out the below:
     - Difference between globally and locally installed packages
