@@ -88,19 +88,20 @@ If not:
 
 ## More info
 
-### Description of files/directories in templates
-
-- [What's this file?](./what-is-this-file.md)
-
 ### Something you may want to check out
 
+If these help.
+
+- [What's this file?](./what-is-this-file.md)
 - [Tips](./tips.md)
+- [Use TypeScript features in JavaScript code](./use-ts-in-js.md)
 
 ### Advanced
 
+Here is some more information for advanced users (or those who want to be).  
+
 - [Advanced Topics](./advanced-topics.md)
 
-Here is some more information for advanced users (or those who want to be).  
 However this doesn't mean that other topics are easy enough.  
 Anyway, learning takes time.
 

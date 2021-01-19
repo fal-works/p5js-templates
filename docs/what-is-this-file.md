@@ -2,6 +2,8 @@
 
 [> Home](./)
 
+Description of files/directories in templates.
+
 ## .vscode directory
 
 This directory contains configuration specific to [VS Code](https://code.visualstudio.com/).
