@@ -8,7 +8,7 @@
 
 クリエイティブコーディングでは小さなプロジェクトをたくさん作ることが多く、その都度様々なパッケージの依存関係をインストールすることになるので、このツールは特に有用です。
 
-依存パッケージのインストールの際には、`npm` か `pnpm` のどちらかを一貫して使うように注意してください。
+依存パッケージのインストールの際、`npm` か `pnpm` のどちらかを一貫して使うよう注意してください。
 
 ## なにかがうまく行かないときは
 
@@ -20,7 +20,7 @@
 
 ## JSDocコメントを使う
 
-JavaScript のコードを [VS Code](https://code.visualstudio.com/) で開くと、`/** ... */` という形式のコメントは [JSDoc](https://jsdoc.app/) として認識されます。
+JavaScript のコードを [VS Code](https://code.visualstudio.com/) で開くと、`/** ... */` というコメントは [JSDoc](https://jsdoc.app/) として認識されます。
 
 詳細は VS Code のドキュメントを見てください。[JavaScript in Visual Studio Code](https://code.visualstudio.com/docs/languages/javascript) の、"JSDoc support" や "Hover information" のあたりです。
 
