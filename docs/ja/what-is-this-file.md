@@ -2,7 +2,7 @@
 
 [> Home](./)
 
-## .vscode directory
+## .vscode ディレクトリー
 
 このディレクトリーには、[VS Code](https://code.visualstudio.com/) 向けの設定情報が入っています。
 
