@@ -11,3 +11,7 @@ defaults:
       path: "" # all
     values:
       image: "/images/flowchart.png"
+
+full_url: https://fal-works.github.io/p5js-templates
+favicon: /images/favicon.ico
+hide_github_button: false

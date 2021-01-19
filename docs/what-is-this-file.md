@@ -1,7 +1,5 @@
 # What's this file?
 
-[> Home](./)
-
 Description of files/directories in templates.
 
 ## .vscode directory

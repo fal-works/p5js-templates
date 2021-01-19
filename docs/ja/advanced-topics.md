@@ -1,6 +1,9 @@
-# 上級者向けトピックス
+---
+lang: ja
+logical_url: /advanced-topics.html
+---
 
-[> Home](./)
+# 上級者向けトピックス
 
 ## スケッチを公開する
 

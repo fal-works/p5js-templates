@@ -1,7 +1,5 @@
 # Use TypeScript features in JavaScript code
 
-[> Home](./)
-
 [VS Code](https://code.visualstudio.com/) itself has strong support for [TypeScript](https://www.typescriptlang.org/) by default.  
 And your JavaScript code can also benefit from it even if you don't use TypeScript.
 

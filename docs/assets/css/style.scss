@@ -3,6 +3,15 @@
 
 @import "{{ site.theme }}";
 
+.page-header {
+  h1 {
+    a, a:visited {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+}
+
 .main-content {
   h1,
   h2,

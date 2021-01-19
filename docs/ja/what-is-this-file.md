@@ -1,6 +1,9 @@
-# なんだこのファイル
+---
+lang: ja
+logical_url: /what-is-this-file.html
+---
 
-[> Home](./)
+# なんだこのファイル
 
 テンプレート内のファイルやディレクトリーの説明です。
 

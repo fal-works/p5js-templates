@@ -1,6 +1,9 @@
-# TypeScript の機能を JavaScript のコードで使う
+---
+lang: ja
+logical_url: /use-ts-in-js.html
+---
 
-[> Home](./)
+# TypeScript の機能を JavaScript のコードで使う
 
 [VS Code](https://code.visualstudio.com/) は、それ自体がデフォルトで [TypeScript](https://www.typescriptlang.org/) を強力にサポートしています。  
 たとえ TypeScript を使わなくても、JavaScript コードを書くときにその恩恵を受けられます。

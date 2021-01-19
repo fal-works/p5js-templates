@@ -1,7 +1,5 @@
 # Tips
 
-[> Home](./)
-
 ## Use pnpm
 
 Instead of using the default `npm` command, it is also recommended to use [pnpm](https://pnpm.js.org/) (which is also used for developing "p5.js Templates").

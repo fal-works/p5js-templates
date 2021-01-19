@@ -1,7 +1,5 @@
 # Advanced Topics
 
-[> Home](./)
-
 ## Publish your sketch
 
 There are several platforms where you can post and share your sketch, such as [p5.js Web Editor](https://editor.p5js.org/) or [OpenProcessing](https://www.openprocessing.org/).

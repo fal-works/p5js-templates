@@ -1,6 +1,9 @@
-# ヒントとアドバイス
+---
+lang: ja
+logical_url: /tips.html
+---
 
-[> Home](./)
+# ヒントとアドバイス
 
 ## pnpm を使う
 
