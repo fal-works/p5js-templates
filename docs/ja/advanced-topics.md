@@ -2,6 +2,13 @@
 
 [> Home](./)
 
+## Publish your sketch
+
+あなたのスケッチを投稿・共有化できるプラットフォームがいくつかあります。[p5.js Web Editor](https://editor.p5js.org/) や [OpenProcessing](https://www.openprocessing.org/) など。
+
+もし Git を使っていて、コードを GitHub に保管しているのなら、そのスケッチを [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages) でも公開できます。  
+`docs` ディレクトリーを作り、そこに `index.html` と、そのなかでロードする他のファイルを置きます（いくつかのテンプレートはすでに同じことをしていて、`dist` ディレクトリーがそれです）。そして、`docs` ディレクトリーを公開するよう設定しましょう。
+
 ## Node.js のモジュール解決
 
 ソースコードを複数のファイル（モジュール）に分ける場合、`index.js` を置くことで当該ディレクトリーをモジュールとして扱いたいと思うことがあるかもしれません。  

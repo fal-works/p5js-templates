@@ -73,9 +73,6 @@ Even if you don't use Git, you can still download each p5.js template from GitHu
 - The `.gitignore` file is for specifying which files are to be ignored by Git.  
 In case you don't use Git, you won't need that file as well.
 
-- If you use Git and store your code on GitHub, you can also publish your sketch with [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages).  
-Create a `docs` directory, and save there `index.html` together with other files to be loaded (which some templates already do in the `dist` directory), and then set the `docs` directory to be published.
-
 ### VS Code configuration
 
 - The `.vscode` directory contains configuration specific to [VS Code](https://code.visualstudio.com/).

@@ -73,9 +73,6 @@ Git を使わない場合でも、p5.js テンプレートを GitHub からダ�
 - `.gitignore` ファイルは、Git で無視する（管理対象外にする）ファイルを指定するためのものです。  
 Git を使わない場合はこのファイルも不要です。
 
-- もし Git を使っていて、コードを GitHub に保管しているのなら、そのスケッチを [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages) で公開できます。  
-`docs` ディレクトリーを作り、そこに `index.html` と、そのなかでロードする他のファイルを置きます（いくつかのテンプレートはすでに同じことをしていて、`dist` ディレクトリーがそれです）。そして、`docs` ディレクトリーを公開するよう設定しましょう。
-
 ### VS Code の設定
 
 - `.vscode` ディレクトリーには、[VS Code](https://code.visualstudio.com/) 向けの設定情報が入っています。

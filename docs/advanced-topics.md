@@ -2,6 +2,13 @@
 
 [> Home](./)
 
+## Publish your sketch
+
+There are several platforms where you can post and share your sketch, such as [p5.js Web Editor](https://editor.p5js.org/) or [OpenProcessing](https://www.openprocessing.org/).
+
+If you use [Git](https://git-scm.com/) and store your code on GitHub, you can also publish your sketch with [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages).  
+Create a `docs` directory, and save there `index.html` together with other files to be loaded (which some templates already do in the `dist` directory), and then set the `docs` directory to be published.
+
 ## Node.js module resolution
 
 If you separate your source code into multiple files (modules), sometimes you may want use `index.js` for treating any directory as a module.  
