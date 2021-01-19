@@ -4,12 +4,16 @@
 
 **en** / [ja](./ja/)
 
-<img src="./images/flowchart.png" alt="p5.js Templates flowchart image" title="p5.js Templates" width="640" height="320">
+## About
 
 This is a set of GitHub template repositories for **[p5.js](https://p5js.org/)**.  
 Helps you write code and create sketches comfortably.
 
-Assisted by several JavaScript development tools:
+<img src="./images/flowchart.png" alt="p5.js Templates flowchart image" title="p5.js Templates" width="640" height="320">
+
+For the code editor, [Visual Studio Code](https://code.visualstudio.com/) (or VS Code in short) is assumed to be used.
+
+The templates are assisted by several JavaScript development tools:
 
 ||Tool|What's that|
 |---|---|---|
@@ -19,8 +23,6 @@ Assisted by several JavaScript development tools:
 |R|[Rollup](https://rollupjs.org/)|Module bundler|
 
 However you don't necessarily have to use all of them (see the template list below).
-
-For the code editor, [Visual Studio Code](https://code.visualstudio.com/) (or VS Code in short) is assumed to be used.
 
 *Note:* These are not for complete beginners and assume that you know about the basics of JavaScript and p5.js. However you don't have to be an expert at all!
 

@@ -4,12 +4,16 @@
 
 [en](../) / **ja**
 
-<img src="../images/flowchart.png" alt="p5.js Templates flowchart image" title="p5.js Templates" width="640" height="320">
+## 概要
 
 これは、**[p5.js](https://p5js.org/)** 用の GitHub テンプレートリポジトリーの集まりです。  
 コードを書いてスケッチを作るのを快適にしてくれます。
 
-次のように、いろいろな JavaScript 開発用ツールの助けを借りています。
+<img src="../images/flowchart.png" alt="p5.js Templates flowchart image" title="p5.js Templates" width="640" height="320">
+
+コードエディターとしては、[Visual Studio Code](https://code.visualstudio.com/)（略称 VS Code）の利用を想定しています。
+
+また次のように、いろいろな JavaScript 開発用ツールの助けを借りています。
 
 ||ツール|なにそれ|
 |---|---|---|
@@ -19,8 +23,6 @@
 |R|[Rollup](https://rollupjs.org/)|モジュールバンドラー|
 
 とはいっても、すべてを使う必要があるわけではありません（下記テンプレート一覧を参照）。
-
-コードエディターとしては、[Visual Studio Code](https://code.visualstudio.com/)（略称 VS Code）の利用を想定しています。
 
 注：これらは完全な初心者向けではなく、JavaScript と p5.js の基本を知っている想定です。でもエキスパートである必要はまったくありません。
 
