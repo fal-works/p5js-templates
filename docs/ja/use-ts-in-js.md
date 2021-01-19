@@ -13,7 +13,7 @@ logical_url: /use-ts-in-js.html
 
 [@types/p5](https://www.npmjs.com/package/@types/p5) は p5.js 用の型宣言です。これは TypeScript を使いながら p5.js のスケッチを作るときに必要になるものです。
 
-ですが、この型宣言は JavaScript でコードを書くときにも役に立ちます。
+ですが、この型宣言は JavaScript でコードを書くときにも役に立ちます。p5.js のリファレンス、つまり各種関数などの説明が埋め込まれていて、それを利用できるのです。
 
 ### 準備
 
@@ -43,7 +43,7 @@ logical_url: /use-ts-in-js.html
 }
 ```
 
-これで、マウスホバーで p5.js の関数の情報が見られるようになります。
+これで、マウスホバーで p5.js の関数の情報が見られるし、コード補完も効くようになります。
 
 <img src="../images/screenshots/use-d-ts.png" alt="JSファイルで型宣言を使う" title="JSファイルで型宣言を使う" width="480" height="240">
 

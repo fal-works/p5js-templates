@@ -8,7 +8,7 @@ And your JavaScript code can also benefit from it even if you don't use TypeScri
 
 [@types/p5](https://www.npmjs.com/package/@types/p5) a type declaration for p5.js. This is something you'll need if you create p5.js sketches with TypeScript.
 
-However, this type declaration is useful for your JavaScript code as well.
+However, this type declaration is useful for your JavaScript code as well. Because the reference information of p5.js (i.e. description of each function) is embedded in this and you can use it.
 
 ### Prepare
 
@@ -38,7 +38,7 @@ The content should be something like this:
 }
 ```
 
-Now you can see Hover Information for p5.js functions.
+Now you can use hover information and code completion for p5.js functions.
 
 <img src="./images/screenshots/use-d-ts.png" alt="Use type declaration in JS files" title="Use type declaration in JS files" width="480" height="240">
 
