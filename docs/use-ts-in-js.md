@@ -12,22 +12,30 @@ And your JavaScript code can also benefit from it even if you don't use TypeScri
 
 However, this type declaration is useful for your JavaScript code as well.
 
-Use it as follows:
+### Prepare package.json
 
-1. If you don't use [pnpm](https://pnpm.js.org/), and if `package.json` does not exist (this is the case for Template P), create a new one in your sketch folder. For the content an empty object `{}` is enough.
-2. Install @types/p5 with `npm install -D @types/p5` or `pnpm add -D @types/p5`.
-3. Create a new `tsconfig.json` file in your sketch folder. The content should be something like this:
+If you don't use [pnpm](https://pnpm.js.org/), and if `package.json` does not exist (this is the case for Template P), create a new one in your sketch folder.
 
-    ```json
-    {
-      "compilerOptions": {
-        "allowJs": true,
-        "target": "ES2015",
-        "types": ["p5/global"],
-        "noEmit": true
-      }
-    }
-    ```
+For the content an empty object `{}` is enough.
+
+### How to use
+
+First, install @types/p5.  
+Either `npm install -D @types/p5` or `pnpm add -D @types/p5`.
+
+Then create a new `tsconfig.json` file in your sketch folder.  
+The content should be something like this:
+
+```json
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ES2015",
+    "types": ["p5/global"],
+    "noEmit": true
+  }
+}
+```
 
 Now you can see Hover Information for p5.js functions.
 

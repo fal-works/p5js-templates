@@ -12,22 +12,30 @@
 
 ですが、この型宣言は JavaScript でコードを書くときにも役に立ちます。
 
-次のようにして使ってみましょう。
+### 準備：package.json
 
-1. [pnpm](https://pnpm.js.org/) を使っておらず、かつ `package.json` が存在しない（これは Template P が該当する）場合は、スケッチのフォルダー内に新しく作ります。その内容は空のオブジェクト `{}` でよいです。
-2. `npm install -D @types/p5` か `pnpm add -D @types/p5` のようにして、@types/p5 をインストールします。
-3. スケッチのフォルダー内に、`tsconfig.json` ファイルを新たに作ります。内容は次のような感じです。
+[pnpm](https://pnpm.js.org/) を使っておらず、かつ `package.json` が存在しない（これは Template P が該当する）場合は、スケッチのフォルダー内に新しく作ります。
 
-    ```json
-    {
-      "compilerOptions": {
-        "allowJs": true,
-        "target": "ES2015",
-        "types": ["p5/global"],
-        "noEmit": true
-      }
-    }
-    ```
+内容は空のオブジェクト `{}` でよいです。
+
+### 使いかた
+
+まず @types/p5 をインストールします。  
+`npm install -D @types/p5` または `pnpm add -D @types/p5` です。
+
+そして、スケッチのフォルダー内に `tsconfig.json` ファイルを新たに作ります。  
+内容は次のようなかんじです。
+
+```json
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ES2015",
+    "types": ["p5/global"],
+    "noEmit": true
+  }
+}
+```
 
 これで、マウスホバーで p5.js の関数の情報が見られるようになります。
 
