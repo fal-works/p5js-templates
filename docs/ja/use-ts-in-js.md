@@ -15,11 +15,14 @@ logical_url: /use-ts-in-js.html
 
 ですが、この型宣言は JavaScript でコードを書くときにも役に立ちます。
 
-### 準備：package.json
+### 準備
 
-[pnpm](https://pnpm.js.org/) を使っておらず、かつ `package.json` が存在しない（これは Template P が該当する）場合は、スケッチのフォルダー内に新しく作ります。
+`package.json` が存在しない（これは Template P が該当する）場合は、まず以下を行います。
 
+- [pnpm](https://pnpm.js.org/) を使っていない場合、スケッチのフォルダー内に `package.json` を新しく作ります。  
 内容は空のオブジェクト `{}` でよいです。
+- [Git](https://git-scm.com/) を使っていて、かつ `.gitignore` が存在しない場合、これもフォルダー内に作ります。  
+そして一行、`node_modules/` を追加します。このディレクトリーを無視するためです。
 
 ### 使いかた
 

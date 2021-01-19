@@ -10,11 +10,14 @@ And your JavaScript code can also benefit from it even if you don't use TypeScri
 
 However, this type declaration is useful for your JavaScript code as well.
 
-### Prepare package.json
+### Prepare
 
-If you don't use [pnpm](https://pnpm.js.org/), and if `package.json` does not exist (this is the case for Template P), create a new one in your sketch folder.
+If `package.json` does not exist (this is the case for Template P), first do the below:
 
+- If you don't use [pnpm](https://pnpm.js.org/), create a new `package.json` manually in your sketch folder.  
 For the content an empty object `{}` is enough.
+- If you use [Git](https://git-scm.com/) and if `.gitignore` doesn't exist, create it in your sketch folder as well.  
+And add a line `node_modules/` for ignoring that directory.
 
 ### How to use
 
