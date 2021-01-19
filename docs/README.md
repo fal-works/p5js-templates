@@ -66,6 +66,7 @@ Using Git is not required; Git is quite useful but might also be a little diffic
 - [npm](https://docs.npmjs.com/) is a large database on the web, from which you can download several packages including the tools described above.  
 It also provides a package manager tool, which is a CLI (i.e. `npm` commands) and is necessary for using the templates in this site (except the Template P). You only need to install [Node.js](https://nodejs.org/) to be able to use this.
 
+
 ## How to download a template
 
 Open a GitHub repository of any template linked above.
@@ -81,85 +82,27 @@ If not:
 
 - Just click the "Code" button and then "Download ZIP".
 
-## More details
 
-You don't necessarily have to read all of these first, but if it helps.
+----
 
-### Files related to Git
 
-- The `.gitignore` file is for specifying which files are to be ignored by Git.  
-In case you don't use Git, you won't need that file as well.
+## More info
 
-### VS Code configuration
+### Description of files/directories in templates
 
-- The `.vscode` directory contains configuration specific to [VS Code](https://code.visualstudio.com/).
+- [What's this file?](./what-is-this-file.md)
 
-- Each time you save the code you are editing, Prettier formats it and ESLint fixes some errors. This automatic behavior is enabled by `.vscode/settings.json`. You might also have your own settings that globally apply to all of your projects, but the local ones (in `.vscode` of each project) will override the global ones.
+### Something you may want to check out
 
-- By the way VS Code has also its own default formatter. In many cases Prettier might be more useful but sometimes you might rather prefer the default one.
-
-- Some templates require the command-line `npm run build` to be run for building the sketch (see also "npm scripts" below). Here you can use the shortcut keys `Ctrl + Shift + B` or `⇧⌘B` instead of manually typing and running the command. This is defined in the file `.vscode/tasks.json`.
-
-### npm related files
-
-- The `package.json` file is necessary for using `npm` or other package managers. It contains several metadata including package dependencies. It may also contain some user-defined scripts (see also "npm scripts" below).
-
-- Instruction of each template (except for Template P) tells you to use the `npm` command, but it is also recommended to use [pnpm](https://pnpm.js.org/) instead (which is also used for developing these templates).
-
-- If you don't use pnpm, you can remove the file `pnpm-lock.yaml`. When installing dependencies, the default `npm` will generate `package-lock.json` instead. These lock files may not be important for you but google around it if you're curious.
-
-- If something doesn't work related to npm packages, try the below:
-    1. Reload the VS Code window (`Ctrl+P` or `⌘+P` -> type `reload window` then `ENTER`).
-    2. If still not resolved, reinstall package dependencies (`npm install` or `pnpm install`), then reload the window again.
-
-### npm scripts
-
-- Some templates use [TypeScript](https://www.typescriptlang.org/) and/or [Rollup](https://rollupjs.org/) for building a JavaScript file to be run on browsers. This process is automated and programmed with npm scripts, which are defined in the `scripts` field in `package.json` and can be run with command-line `npm run (command name)`.
-
-- For understanding how to construct npm scripts, you may want to google around "npm scripts" or "npm run-script" or something. And check out the below:
-    - Difference between globally and locally installed packages
-    - What the `node_modules` directory is
-    - Connecting commands with `&` or `&&` (this enables you to run them in parallel/sequential)
-    - `pre`/`post` prefix of commands
-    - `npx` command
-
-### HTML/CSS
-
-- The CSS file in each template removes margin/padding and sets `display: block` for the canvas. This is useful if you create sketches that fit to the entire window.
-
-- Some VS Code extensions for HTML:
-    - With [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser) you can open any HTML file directly from VS Code.
-    - If you load any asset file (e.g. an image) in your sketch, simply opening the HTML file won't work well. You may want to open it with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). It also refreshes the page each time a change is made to the JavaScript file.
-
-### ESLint config
-
-- The `.eslintrc.json` file contains configuration information of [ESLint](https://eslint.org/).
-
-- ESLint is highly configurable; [here](https://eslint.org/docs/rules/) you can see a long list of rules.
-
-- Each template is designed to use [Prettier](https://prettier.io/) for formatting code and do not enable ESLint rules that only affect the appearance of the code.  
-However, the `lines-around-comment` rule is enabled, because the behavior of this rule is not covered by Prettier. Unfortunately a [TypeScript](https://www.typescriptlang.org/) version of this rule [does not exist](https://github.com/typescript-eslint/typescript-eslint/issues/1933) at the time writing this.
-
-### License
-
-- Each template contains a `LICENSE` file, and its content is [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) (CC0-1.0 in short). This means that you can copy and use the template without any restrictions.
-
-- The `package.json` file also has a `license` field and its value should be consistent with the `LICENSE` file. See also the [documentation of package.json](https://docs.npmjs.com/cli/v6/configuring-npm/package-json).
-
-- Templates using [Rollup](https://rollupjs.org/) also attach a `@license` tag when generating the output code (this is configured in the `rollup.config.js` file).
-
-- If you create a sketch using one of these templates and want to publish it including the code:
-    - You may want to remove the license (or attach another one instead) to protect your own code.
-    - There are several open source licenses and CC0 is one of the least restrictive. It may also take a little time to learn about copyright; let's check them out.
+- [Tips](./tips.md)
 
 ### Advanced
 
-Here are some more information for advanced users (or those who want to be):
-
 - [Advanced Topics](./advanced-topics.md)
 
-However this doesn't mean that the topics in this page are easy enough.  
-Learning takes time.
+Here is some more information for advanced users (or those who want to be).  
+However this doesn't mean that other topics are easy enough.  
+Anyway, learning takes time.
 
 
 ----

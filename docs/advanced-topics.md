@@ -85,8 +85,7 @@ If you use Rollup without TypeScript, try adding a command like the below:
 
 then run it with `npm run dev`.
 
-- This will watch your source code files and automatically bundle them (i.e. generate a single `*.js` file) each time you save one of them.
-- The `--config` option means that Rollup refers to the `rollup.config.js` file in your sketch folder.
+This will watch your source code files and automatically bundle them (i.e. generate a single `*.js` file) each time you save one of them.
 
 ### TypeScript & Rollup
 
