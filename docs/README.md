@@ -129,6 +129,8 @@ However, the `lines-around-comment` rule is enabled, because the behavior of thi
 
 - Each template contains a `LICENSE` file, and its content is [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) (CC0-1.0 in short). This means that you can copy and use the template without any restrictions.
 
+- The `package.json` file also has a `license` field and its value should be consistent with the `LICENSE` file. See also the [documentation of package.json](https://docs.npmjs.com/cli/v6/configuring-npm/package-json).
+
 - Templates using [Rollup](https://rollupjs.org/) also attach a `@license` tag when generating the output code (this is configured in the `rollup.config.js` file).
 
 - If you create a sketch using one of these templates and want to publish it including the code:

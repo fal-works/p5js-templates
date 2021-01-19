@@ -129,6 +129,8 @@ Git を使わない場合はこのファイルも不要です。
 
 - 各テンプレートには `LICENSE` ファイルが入っていて、その内容は [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)（略称 CC0-1.0）です。これは、そのテンプレートをコピペして使ってもよく、それに一切の制約が無いことを意味します。
 
+- `package.json` ファイルにも `license` の項目があり、その値は `LICENSE` ファイルと一貫している必要があります。[package.json のドキュメント](https://docs.npmjs.com/cli/v6/configuring-npm/package-json) も見てみましょう。
+
 - [Rollup](https://rollupjs.org/) を使うテンプレートでは、出力先のコードを生成するときにも `@license` タグを付与します（これは `rollup.config.js` ファイルのなかで設定されています）。
 
 - テンプレートを使ってスケッチを作り、それをコードも含めて公開したいときは……
