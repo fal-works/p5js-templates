@@ -2,11 +2,15 @@
 
 [> Home](./)
 
+[VS Code](https://code.visualstudio.com/) は、それ自体がデフォルトで [TypeScript](https://www.typescriptlang.org/) を強力にサポートしています。  
+たとえ TypeScript を使わなくても、JavaScript コードを書くときにその恩恵を受けられます。
+
+
 ## 型宣言を使う
 
-[@types/p5](https://www.npmjs.com/package/@types/p5) は p5.js 用の型宣言です。これは p5.js のスケッチを [TypeScript](https://www.typescriptlang.org/) を使いなら作るときに必要になるものです。
+[@types/p5](https://www.npmjs.com/package/@types/p5) は p5.js 用の型宣言です。これは TypeScript を使いながら p5.js のスケッチを作るときに必要になるものです。
 
-ですが、たとえ TypeScript を使わなくとも、この型宣言は役に立ちます。これは、VS Code 自体がデフォルトで TypeScript を強力にサポートしているためです。
+ですが、この型宣言は JavaScript でコードを書くときにも役に立ちます。
 
 次のようにして使ってみましょう。
 

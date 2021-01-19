@@ -2,11 +2,15 @@
 
 [> Home](./)
 
+[VS Code](https://code.visualstudio.com/) itself has strong support for [TypeScript](https://www.typescriptlang.org/) by default.  
+And your JavaScript code can also benefit from it even if you don't use TypeScript.
+
+
 ## Use type declaration
 
-[@types/p5](https://www.npmjs.com/package/@types/p5) a type declaration for p5.js. This is something you'll need if you create p5.js sketches with [TypeScript](https://www.typescriptlang.org/).
+[@types/p5](https://www.npmjs.com/package/@types/p5) a type declaration for p5.js. This is something you'll need if you create p5.js sketches with TypeScript.
 
-However, even if you don't use TypeScript, this type declaration is still useful for you. This is because VS Code itself has strong support for TypeScript by default.
+However, this type declaration is useful for your JavaScript code as well.
 
 Use it as follows:
 
