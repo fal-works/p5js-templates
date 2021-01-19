@@ -98,7 +98,7 @@ This will copy the template and create a new repository for you.
 
 ## More info
 
-### Something you may want to check out
+### Things you might want to check
 
 If these help.
 
