@@ -112,8 +112,6 @@ In case you don't use Git, you won't need that file as well.
 
 - The CSS file in each template removes margin/padding and sets `display: block` for the canvas. This is useful if you create sketches that fit to the entire window.
 
-- Adding `defer` attribute to the [\<script\> tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)s enables the JavaScript files to be loaded asynchronously without blocking the HTML parser. Do not use `async` attribute because the order of execution is important in our case using p5.js.
-
 - Some VS Code extensions for HTML:
     - With [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser) you can open any HTML file directly from VS Code.
     - If you load any asset file (e.g. an image) in your sketch, simply opening the HTML file won't work well. You may want to open it with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). It also refreshes the page each time a change is made to the JavaScript file.

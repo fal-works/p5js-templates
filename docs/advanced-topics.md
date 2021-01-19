@@ -9,6 +9,18 @@ There are several platforms where you can post and share your sketch, such as [p
 If you use [Git](https://git-scm.com/) and store your code on GitHub, you can also publish your sketch with [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages).  
 Create a `docs` directory, and save there `index.html` together with other files to be loaded (which some templates already do in the `dist` directory), and then set the `docs` directory to be published.
 
+## Edit HTML file and improve performance
+
+The Template PETR+ does both of the two below:
+
+- Adding `defer` attribute to the [\<script\> tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)s enables the JavaScript files to be loaded asynchronously without blocking the HTML parser. Do not use `async` attribute because the order of execution is important in our case using p5.js.
+
+- You may load `p5.min.js` instead of `p5.js`. This will improve the runtime performance for the following reasons:
+    - This file is minified i.e. has smaller file size, so it loads faster.
+    - It disables the [p5.js Friendly Error System](https://github.com/processing/p5.js/blob/main/contributor_docs/friendly_error_system.md).  
+
+    By the way you may also minify your own code using a minifier tool like [terser](https://terser.org/).
+
 ## Node.js module resolution
 
 If you separate your source code into multiple files (modules), sometimes you may want use `index.js` for treating any directory as a module.  

@@ -9,6 +9,18 @@
 もし Git を使っていて、コードを GitHub に保管しているのなら、そのスケッチを [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages) でも公開できます。  
 `docs` ディレクトリーを作り、そこに `index.html` と、そのなかでロードする他のファイルを置きます（いくつかのテンプレートはすでに同じことをしていて、`dist` ディレクトリーがそれです）。そして、`docs` ディレクトリーを公開するよう設定しましょう。
 
+## HTML ファイルを編集してパフォーマンスを改善
+
+Template PETR+ では、以下の2つのことを行っています。
+
+- [\<script\> タグ](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) に `defer` 属性を追加すると、HTML パーサーを停止させずに JavaScript ファイルを非同期でロードできます。p5.js の本体とスケッチの実行順序が重要なため、`async` 属性は使わないようにしましょう。
+
+- `p5.js` の代わりに `p5.min.js` をロードできます。これは次の理由でプログラム実行時のパフォーマンスを改善します。
+    - このファイルは minify されている、つまりファイルサイズが小さいので、より速くロードできます。
+    - [p5.js Friendly Error System](https://github.com/processing/p5.js/blob/main/contributor_docs/friendly_error_system.md) が無効化されます。
+
+    ちなみに [terser](https://terser.org/) などの minifier ツールを使えば、自分のコードも minify できます。
+
 ## Node.js のモジュール解決
 
 ソースコードを複数のファイル（モジュール）に分ける場合、`index.js` を置くことで当該ディレクトリーをモジュールとして扱いたいと思うことがあるかもしれません。  
