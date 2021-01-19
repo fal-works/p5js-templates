@@ -80,16 +80,16 @@ By installing [Node.js](https://nodejs.org/) you'll be able to use it.
 Open a GitHub repository of any template linked above.  
 Then do as follows:
 
+### Without Git
+
+- Just click the "Code" button and then "Download ZIP".
+
 ### With Git
 
 1. Click the "Use this template" button.  
 This will copy the template and create a new repository for you.
 2. Click the "Code" button and check the URL for cloning the repository.
 3. Clone the repository with `git clone` command or something else.
-
-### Without Git
-
-- Just click the "Code" button and then "Download ZIP".
 
 
 ----
