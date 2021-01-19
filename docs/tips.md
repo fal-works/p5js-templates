@@ -2,7 +2,7 @@
 
 [> Home](./)
 
-## Using pnpm
+## Use pnpm
 
 Instead of using the default `npm` command, it is also recommended to use [pnpm](https://pnpm.js.org/) (which is also used for developing "p5.js Templates").
 
@@ -10,7 +10,7 @@ This tool is especially useful for creative coding, where you often create many 
 
 When installing package depencencies, be sure to run either `npm` or `pnpm` consistently.
 
-## If something doens't work
+## If something doesn't work
 
 Try the below:
 
