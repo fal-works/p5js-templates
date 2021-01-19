@@ -1,15 +1,14 @@
 # Better coding experience.
 
-<p><a href="https://twitter.com/intent/tweet?url=https://fal-works.github.io/p5js-templates/&text=p5.js+Templates&hashtags=p5js" target="blank_"><strong>>> [ Tweet ]</strong></a></p>
-
 **en** / [ja](./ja/)
+<span style="margin-left: 1.5rem"><a href="https://twitter.com/intent/tweet?url=https://fal-works.github.io/p5js-templates/&text=p5.js+Templates&hashtags=p5js" target="blank_"><strong>>> [ Tweet ]</strong></a></span>
+
+<img src="./images/flowchart.png" alt="p5.js Templates flowchart image" title="p5.js Templates" width="640" height="320">
 
 ## About
 
 This is a set of GitHub template repositories for **[p5.js](https://p5js.org/)**.  
 Helps you write code and create sketches comfortably.
-
-<img src="./images/flowchart.png" alt="p5.js Templates flowchart image" title="p5.js Templates" width="640" height="320">
 
 For the code editor, [Visual Studio Code](https://code.visualstudio.com/) (or VS Code in short) is assumed to be used.
 

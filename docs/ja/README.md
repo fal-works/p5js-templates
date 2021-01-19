@@ -1,15 +1,14 @@
 # より良いコーディング体験を。
 
-<p><a href="https://twitter.com/intent/tweet?url=https://fal-works.github.io/p5js-templates/ja/&text=p5.js+Templates&hashtags=p5js" target="blank_"><strong>>> [ Tweet ]</strong></a></p>
-
 [en](../) / **ja**
+<span style="margin-left: 1.5rem"><a href="https://twitter.com/intent/tweet?url=https://fal-works.github.io/p5js-templates/ja/&text=p5.js+Templates&hashtags=p5js" target="blank_"><strong>>> [ Tweet ]</strong></a></span>
+
+<img src="../images/flowchart.png" alt="p5.js Templates flowchart image" title="p5.js Templates" width="640" height="320">
 
 ## 概要
 
 これは、**[p5.js](https://p5js.org/)** 用の GitHub テンプレートリポジトリーの集まりです。  
 コードを書いてスケッチを作るのを快適にしてくれます。
-
-<img src="../images/flowchart.png" alt="p5.js Templates flowchart image" title="p5.js Templates" width="640" height="320">
 
 コードエディターとしては、[Visual Studio Code](https://code.visualstudio.com/)（略称 VS Code）の利用を想定しています。
 
