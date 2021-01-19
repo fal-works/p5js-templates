@@ -59,26 +59,34 @@ In addition: [terser](https://terser.org/) minifies your code for distribution.
 
 ## Basic terms
 
-- [GitHub](https://github.co.jp/) is an online platform for hosting code that is managed by Git.  
+### Git and GitHub
+
+[GitHub](https://github.co.jp/) is an online platform for hosting code that is managed by Git.  
+
 And [Git](https://git-scm.com/) is a version control system, which will track changes to your code and do some other several jobs as well.
+
 Using Git is not required; Git is quite useful but might also be a little difficult for programming beginners.
 
-- [npm](https://docs.npmjs.com/) is a large database on the web, from which you can download several packages including the tools described above.  
-It also provides a package manager tool, which is a CLI (i.e. `npm` commands) and is necessary for using the templates in this site (except the Template P). You only need to install [Node.js](https://nodejs.org/) to be able to use this.
+### npm
+
+[npm](https://docs.npmjs.com/) is a large database on the web, from which you can download several packages including the tools described above. It also provides a package manager tool.
+
+You only need to install [Node.js](https://nodejs.org/) to be able to use this.
 
 
 ## How to download a template
 
-Open a GitHub repository of any template linked above.
+Open a GitHub repository of any template linked above.  
+Then do as follows:
 
-Then, if you use Git and GitHub:
+### With Git
 
 1. Click the "Use this template" button.  
 This will copy the template and create a new repository for you.
 2. Click the "Code" button and check the URL for cloning the repository.
 3. Clone the repository with `git clone` command or something else.
 
-If not:
+### Without Git
 
 - Just click the "Code" button and then "Download ZIP".
 
