@@ -18,6 +18,12 @@
 2. まだダメなら、npm パッケージのインストールがうまくできていない可能性があります。
 `npm install` か `pnpm install` で再インストールして、再度ウィンドウをリロードしてください。
 
+## JSDocコメントを使う
+
+JavaScript のコードを [VS Code](https://code.visualstudio.com/) で開くと、`/** ... */` という形式のコメントは [JSDoc](https://jsdoc.app/) として認識されます。
+
+詳細は VS Code のドキュメントを見てください。[JavaScript in Visual Studio Code](https://code.visualstudio.com/docs/languages/javascript) の、"JSDoc support" や "Hover information" のあたりです。
+
 ## VS Code のショートカットキー
 
 - いくつかのテンプレートでは、スケッチをビルドするために、コマンドラインで `npm run build` を実行する必要があります（下記「npm scripts」も参照）。このとき、手で書いて実行する代わりに、ショートカットキーの `Ctrl + Shift + B` か `⇧⌘B` を使うこともできます。

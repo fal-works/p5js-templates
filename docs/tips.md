@@ -18,6 +18,12 @@ Try the below:
 2. If still not resolved, some npm packages may not be correctly installed.  
 Reinstall them with `npm install` or `pnpm install`, then reload the window again.
 
+## Use JSDoc comments
+
+In JavaScript code opened with [VS Code](https://code.visualstudio.com/), any comments with `/** ... */` is recognized as [JSDoc](https://jsdoc.app/).
+
+For details, see VS Code documentation; check out the topics "JSDoc support" and "Hover information" in [JavaScript in Visual Studio Code](https://code.visualstudio.com/docs/languages/javascript).
+
 ## VS Code shortcut keys
 
 - Some templates require the command-line `npm run build` to be run for building the sketch. Here you can use the shortcut keys `Ctrl + Shift + B` or `⇧⌘B` instead of manually typing and running the command.
