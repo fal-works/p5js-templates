@@ -23,7 +23,7 @@
       "compilerOptions": {
         "allowJs": true,
         "target": "ES2015",
-        "types": ["p5/global"], // これは @types/p5 を参照します
+        "types": ["p5/global"],
         "noEmit": true
       }
     }

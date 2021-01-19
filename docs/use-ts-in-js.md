@@ -23,7 +23,7 @@ Use it as follows:
       "compilerOptions": {
         "allowJs": true,
         "target": "ES2015",
-        "types": ["p5/global"], // this refers to @types/p5
+        "types": ["p5/global"],
         "noEmit": true
       }
     }
