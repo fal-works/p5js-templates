@@ -69,9 +69,10 @@ Using Git is not required; Git is quite useful but might also be a little diffic
 
 ### npm
 
-[npm](https://docs.npmjs.com/) is a large database on the web, from which you can download several packages including the tools described above. It also provides a package manager tool.
+[npm](https://docs.npmjs.com/) is a large database on the web, from which you can download several packages including the tools described above.
 
-You only need to install [Node.js](https://nodejs.org/) to be able to use this.
+It also provides a package manager tool (i.e. `npm` command).  
+By installing [Node.js](https://nodejs.org/) you'll be able to use it.
 
 
 ## How to download a template
