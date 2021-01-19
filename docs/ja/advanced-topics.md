@@ -2,7 +2,7 @@
 
 [> Home](./)
 
-## Publish your sketch
+## スケッチを公開する
 
 あなたのスケッチを投稿・共有化できるプラットフォームがいくつかあります。[p5.js Web Editor](https://editor.p5js.org/) や [OpenProcessing](https://www.openprocessing.org/) など。
 
