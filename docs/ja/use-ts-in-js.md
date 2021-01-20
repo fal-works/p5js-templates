@@ -86,3 +86,13 @@ someNumber = "1984"; // その後、文字列を入れる（できません）
 let someNumberlike: number | string = 42; // 数値も文字列も使えるように宣言する
 someNumberlike = "1984"; // これで文字列も代入できる
 ```
+
+以下は余談ですが、JavaScript で型をチェックしながらでも行える回避策があります。
+
+```js
+let someNumberlike;
+someNumberlike = 42;
+someNumberlike = "1984";
+```
+
+ここで `someNumberlike` は `any` 型として認識されます。これはあらゆる種類の値を許容します（そしてそれは理想的ではありません。 たとえ望んでいなくても、オブジェクトや関数など他のどんな値でも代入できてしまうからです）。

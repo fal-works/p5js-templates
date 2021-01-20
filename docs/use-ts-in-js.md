@@ -82,3 +82,13 @@ However sometimes you might need some more complex types, e.g. if you want to do
 let someNumberlike: number | string = 42; // declare to accept both number and string
 someNumberlike = "1984"; // now you can also assign a string
 ```
+
+The following is just a side note, but there is also a workaround that you can do in JavaScript while checking types:
+
+```js
+let someNumberlike;
+someNumberlike = 42;
+someNumberlike = "1984";
+```
+
+Here `someNumberlike` is recognized as type `any`. This accepts all kinds of values (which is not ideal; you can't prevent assigning values of other types such as objects or functions even if you don't want them).
