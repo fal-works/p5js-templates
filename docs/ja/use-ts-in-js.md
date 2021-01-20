@@ -98,7 +98,7 @@ someNumber = "1984"; // その後、文字列を入れる（できません）
 
     ```js
     /**
-     * @type number | string
+     * @type {number|string}
     */
     let someNumberlike = 42;
     someNumberlike = "1984";
