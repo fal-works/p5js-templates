@@ -94,7 +94,7 @@ Sometimes you might need some more complex types, e.g. if you want to do somethi
 
     ```js
     /**
-     * @type {number|string}
+     * @type {(number|boolean)}
     */
     let someNumberlike = 42;
     someNumberlike = "1984";
