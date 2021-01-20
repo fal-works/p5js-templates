@@ -1,5 +1,7 @@
 ---
 lang: ja
+author:
+  twitter: falworks_ja
 logical_url: /
 ---
 
