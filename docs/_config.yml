@@ -6,6 +6,9 @@ twitter:
   card: summary_large_image
   title: p5.js Templates
 
+author:
+  twitter: falworks
+
 defaults:
   - scope:
       path: "" # all
