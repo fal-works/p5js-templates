@@ -1,6 +1,7 @@
 ---
 lang: ja
 logical_url: /use-ts-in-js.html
+description: たとえ TypeScript でコードを書かなくても、あなたの p5.js のコードは TypeScript の恩恵を受けることができます。
 ---
 
 # TypeScript の機能を JavaScript のコードで使う

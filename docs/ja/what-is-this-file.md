@@ -1,6 +1,7 @@
 ---
 lang: ja
 logical_url: /what-is-this-file.html
+description: p5.js Templates に含まれている各種ファイルやディレクトリーの説明です。
 ---
 
 # なんだこのファイル

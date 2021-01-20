@@ -1,3 +1,7 @@
+---
+description: Some information related to p5.js Templates for advanced users (or those who want to be).
+---
+
 # Advanced Topics
 
 ## Publish your sketch

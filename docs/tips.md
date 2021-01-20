@@ -1,3 +1,7 @@
+---
+description: Some information you may want to know when using p5.js Templates.
+---
+
 # Tips
 
 ## Use pnpm

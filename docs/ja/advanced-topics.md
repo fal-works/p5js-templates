@@ -1,6 +1,7 @@
 ---
 lang: ja
 logical_url: /advanced-topics.html
+description: p5.js Templates に関連する、上級者（もしくはそうなりたい人）向けの情報です。
 ---
 
 # 上級者向けトピックス

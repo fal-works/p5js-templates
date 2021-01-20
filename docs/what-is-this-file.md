@@ -1,3 +1,7 @@
+---
+description: Description of files/directories included in p5.js Templates.
+---
+
 # What's this file?
 
 Description of files/directories in templates.

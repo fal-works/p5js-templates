@@ -1,6 +1,7 @@
 ---
 lang: ja
 logical_url: /tips.html
+description: p5.js Templates を使ううえで知っておくとよいかもしれない情報です。
 ---
 
 # ヒントとアドバイス

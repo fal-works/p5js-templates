@@ -1,3 +1,7 @@
+---
+description: Your p5.js code can benefit from TypeScript, it even if you don't write TypeScript code.
+---
+
 # Use TypeScript features in JavaScript code
 
 [VS Code](https://code.visualstudio.com/) itself has strong support for [TypeScript](https://www.typescriptlang.org/) by default.  
