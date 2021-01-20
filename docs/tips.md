@@ -14,10 +14,10 @@ When installing package depencencies, be sure to run either `npm` or `pnpm` cons
 
 ## If something doesn't work
 
-Try the below:
+Try reloading the VS Code window  
+(`Ctrl + P` or `⌘P` -> type `reload window` then `ENTER`).
 
-1. Reload the VS Code window (`Ctrl+P` or `⌘+P` -> type `reload window` then `ENTER`).
-2. If still not resolved, some npm packages may not be correctly installed.  
+If still not resolved, some npm packages may not be correctly installed.  
 Reinstall them with `npm install` or `pnpm install`, then reload the window again.
 
 ## Use JSDoc comments
@@ -30,7 +30,7 @@ For details, see VS Code documentation; check out the topics "JSDoc support" and
 
 - Some templates require the command-line `npm run build` to be run for building the sketch. Here you can use the shortcut keys `Ctrl + Shift + B` or `⇧⌘B` instead of manually typing and running the command.
 
-- You can search and run any VS Code command by opening the command palette with `Ctrl+P` or `⌘+P`.
+- You can search and run any VS Code command by opening the command palette with `Ctrl + P` or `⌘P`.
 
 ## VS Code extensions for HTML
 
