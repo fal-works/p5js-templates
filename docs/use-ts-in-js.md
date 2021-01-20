@@ -47,7 +47,7 @@ Now you can use hover information and code completion for p5.js functions.
 <img src="./images/screenshots/use-d-ts.png" alt="Use type declaration in JS files" title="Use type declaration in JS files" width="480" height="240">
 
 
-## Do type checking
+## Check types
 
 After you create a `tsconfig.json` file as shown above, you'll also be able to do type checking for your JavaScript code.
 
@@ -74,21 +74,39 @@ someNumber = "1984"; // then assign a string (which fails)
 
 This is quite useful for preventing bugs.
 
-And of course it's not the only case; for example you'll also have much less trouble with errors such as `Cannot read property ‘...’ of undefined`. It's important to note that most errors can be found immediately after writing the code, without having to run the program.
+And of course it's not the only case; for example you'll also have less trouble with errors such as `Cannot read property ‘...’ of undefined`. It's important to note that many errors can be found immediately after writing the code, without having to run the program.
 
-However sometimes you might need some more complex types, e.g. if you want to do something like the code above intentionally. In that case using TypeScript is necessary. It's not a very good example, but a valid TypeScript code would be as follows:
+### More complex types
+
+Sometimes you might need some more complex types, e.g. if you want to do something like the code above intentionally. There are some workarounds for that:
+
+1. Declare variables without initialization.
+
+    ```js
+    let someNumberlike;
+    someNumberlike = 42;
+    someNumberlike = "1984";
+    ```
+
+    Here `someNumberlike` is recognized as type `any`. This accepts all kinds of values (which is not ideal; you can't prevent assigning values of other types such as objects or functions even if you don't want them).
+
+2. Write [JSDoc](https://jsdoc.app/) comments.
+
+    ```js
+    /**
+     * @type number | string
+    */
+    let someNumberlike = 42;
+    someNumberlike = "1984";
+    ```
+
+    Maybe doing this is better. In JSDoc you can specify types of values, and VS Code understands that.
+
+By the way you can write it more simply in TypeScript:
 
 ```ts
 let someNumberlike: number | string = 42; // declare to accept both number and string
-someNumberlike = "1984"; // now you can also assign a string
-```
-
-The following is just a side note, but there is also a workaround that you can do in JavaScript while checking types:
-
-```js
-let someNumberlike;
-someNumberlike = 42;
 someNumberlike = "1984";
 ```
 
-Here `someNumberlike` is recognized as type `any`. This accepts all kinds of values (which is not ideal; you can't prevent assigning values of other types such as objects or functions even if you don't want them).
+If you're interested, I'd recommend to try writing TypeScript code as well.
