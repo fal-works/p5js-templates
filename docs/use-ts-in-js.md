@@ -70,7 +70,7 @@ someNumber = "1984"; // then assign a string (which fails)
 
 This is quite useful for preventing bugs.
 
-And of course it's not the only case; for example you'll also have much less trouble with errors such as "Cannot read property ‘...’ of undefined". It's important to note that most errors can be found immediately after writing the code, without having to run the program.
+And of course it's not the only case; for example you'll also have much less trouble with errors such as `Cannot read property ‘...’ of undefined`. It's important to note that most errors can be found immediately after writing the code, without having to run the program.
 
 However sometimes you might need some more complex types, e.g. if you want to do something like the code above intentionally. In that case using TypeScript is necessary. A valid TypeScript code would be as follows:
 
