@@ -16,6 +16,14 @@
 This is a set of GitHub template repositories for **[p5.js](https://p5js.org/)**.  
 Helps you write code and create sketches comfortably.
 
+For usage tutorial, please see the README of each template.  
+This site also contains a lot of descriptions and tips that might be useful for you.  
+
+*Note:*  
+This site and the templates are not intended for complete beginners (i.e. who have no experience writing code at all) and assume that you know something about the basics of JavaScript and p5.js. However you don't have to be an expert at all!
+
+## Main tools you'll use
+
 For the code editor, [Visual Studio Code](https://code.visualstudio.com/) (or VS Code in short) is assumed to be used.
 
 The templates are assisted by several JavaScript development tools:
@@ -28,9 +36,6 @@ The templates are assisted by several JavaScript development tools:
 |R|[Rollup](https://rollupjs.org/)|Module bundler|
 
 However you don't necessarily have to use all of them (see the template list below).
-
-*Note:* These are not for complete beginners and assume that you know about the basics of JavaScript and p5.js. However you don't have to be an expert at all!
-
 
 ## List of templates
 
