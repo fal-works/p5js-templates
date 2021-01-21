@@ -121,7 +121,9 @@ Git を使うことは必須ではありません。Git はとても便利です
 もしお役に立てば。
 
 - [なんだこのファイル](./what-is-this-file.md)
+
 - [ヒントとアドバイス](./tips.md)
+
 - [TypeScript の機能を JavaScript のコードで使う](./use-ts-in-js.md)
 
 ### 上級者向け

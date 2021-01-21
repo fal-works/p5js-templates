@@ -113,7 +113,9 @@ This will copy the template and create a new repository for you.
 If these help.
 
 - [What's this file?](./what-is-this-file.md)
+
 - [Tips](./tips.md)
+
 - [Use TypeScript features in JavaScript code](./use-ts-in-js.md)
 
 ### Advanced
