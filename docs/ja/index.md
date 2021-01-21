@@ -137,10 +137,10 @@ Git を使うことは必須ではありません。Git はとても便利です
 
 ## リンク
 
-- FAL Works - <https://www.fal-works.com/>
+### [FAL Works](https://www.fal-works.com/)
 
-    p5.js Templates の開発者のWebサイト。Processing や p5.js のスケッチもいろいろあります。
+p5.js Templates の開発者のWebサイト。Processing や p5.js のスケッチもいろいろあります。
 
-- JavaScript用語集 開発環境関連 - <https://zenn.dev/fal/articles/js-dev-env-glossary-jan-2021>
+### [JavaScript用語集 開発環境関連](https://zenn.dev/fal/articles/js-dev-env-glossary-jan-2021)
 
-    各種用語やツールなどの解説記事です。
+手前味噌ですが各種用語やツールなどの解説記事です。

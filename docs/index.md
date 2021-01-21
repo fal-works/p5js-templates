@@ -129,6 +129,6 @@ Anyway, learning takes time.
 
 ## Links
 
-- FAL Works - <https://www.fal-works.com/>
+### [FAL Works](https://www.fal-works.com/)
 
-    The website of the developer of p5.js Templates. With a bunch of Processing/p5.js sketches.
+Website of the developer of p5.js Templates. With a bunch of Processing/p5.js sketches.
