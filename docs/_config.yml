@@ -13,7 +13,7 @@ defaults:
   - scope:
       path: "" # all
     values:
-      image: "/images/flowchart.png"
+      image: "/images/ogp.png"
 
 full_url: https://fal-works.github.io/p5js-templates
 favicon: /images/favicon.ico
