@@ -48,8 +48,7 @@ description: たとえ TypeScript でコードを書かなくても、あなた�
 
 これで、マウスホバーで p5.js の関数の情報が見られるし、コード補完も効くようになります。
 
-<img src="../images/screenshots/use-d-ts.png" alt="JSファイルで型宣言を使う" title="JSファイルで型宣言を使う" width="480" height="240">
-
+![JSファイルで型宣言を使う](../images/screenshots/use-d-ts.png)
 
 ## 型チェックを行う
 

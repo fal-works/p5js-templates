@@ -7,13 +7,7 @@
   </a>
 </span>
 
-<img
-  src="./images/flowchart.png"
-  alt="p5.js Templates flowchart image"
-  title="p5.js Templates"
-  width="640"
-  height="320"
-/>
+![p5.js Templates](./images/flowchart.png)
 
 ## About
 

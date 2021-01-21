@@ -44,8 +44,7 @@ The content should be something like this:
 
 Now you can use hover information and code completion for p5.js functions.
 
-<img src="./images/screenshots/use-d-ts.png" alt="Use type declaration in JS files" title="Use type declaration in JS files" width="480" height="240">
-
+![Use type declaration in JS files](./images/screenshots/use-d-ts.png)
 
 ## Check types
 
