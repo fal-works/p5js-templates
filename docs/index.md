@@ -1,9 +1,19 @@
 # Better coding experience.
 
 **en** / [ja](./ja/)
-<span style="margin-left: 1.5rem"><a href="https://twitter.com/intent/tweet?url=https://fal-works.github.io/p5js-templates/&text=p5.js+Templates&hashtags=p5js" target="blank_"><strong>>> [ Tweet ]</strong></a></span>
+<span style="margin-left: 1.5rem">
+  <a href="https://twitter.com/intent/tweet?url=https://fal-works.github.io/p5js-templates/&text=p5.js+Templates&hashtags=p5js" target="blank_">
+    <strong>>> [ Tweet ]</strong>
+  </a>
+</span>
 
-<img src="./images/flowchart.png" alt="p5.js Templates flowchart image" title="p5.js Templates" width="640" height="320">
+<img
+  src="./images/flowchart.png"
+  alt="p5.js Templates flowchart image"
+  title="p5.js Templates"
+  width="640"
+  height="320"
+/>
 
 ## About
 
