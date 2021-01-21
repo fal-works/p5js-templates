@@ -13,7 +13,10 @@
     <link rel="alternate" hreflang="en" href="{{site.full_url}}{{ page.logical_url | default: page.url }}">
     <link rel="alternate" hreflang="ja" href="{{site.full_url}}/ja{{ page.logical_url | default: page.url }}">
     {% endif %}{% endif %}
-    <link rel="stylesheet" href="{{ site.full_url }}/assets/css/custom.css">
+    <style>
+      div.custom-wrapper-50{width:100%;padding-top:50%;position:relative;}
+      .custom-wrapped{position:absolute;top:0;left:0;bottom:0;right:0;}
+    </style>
     <!-- custom end -->
 
     {% if site.google_analytics %}
