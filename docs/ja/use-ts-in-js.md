@@ -48,9 +48,9 @@ description: たとえ TypeScript でコードを書かなくても、あなた�
 
 これで、マウスホバーで p5.js の関数の情報が見られるし、コード補完も効くようになります。
 
-<p><div class="custom-wrapper-50">
+<div class="custom-wrapper-50">
 <img src="../images/screenshots/use-d-ts.png" alt="JSファイルで型宣言を使う" class="custom-wrapped" />
-</div></p>
+</div>
 
 ## 型チェックを行う
 
