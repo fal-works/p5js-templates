@@ -102,7 +102,9 @@ Maybe this is the simplest way; what it does is just running `tsc --watch`, but 
     }
     ```
 
-- Install and use a Rollup plugin for TypeScript. Like [this](https://www.npmjs.com/package/@rollup/plugin-typescript) or [this](https://www.npmjs.com/package/rollup-plugin-typescript2).
+- Install and use a Rollup plugin for TypeScript. Either one:
+    - [@rollup/plugin-typescript](https://www.npmjs.com/package/@rollup/plugin-typescript)
+    - [rollup-plugin-typescript2](https://www.npmjs.com/package/rollup-plugin-typescript2)
 - If you don't mind doing a lot of config, you may use [Babel](https://babeljs.io/) or something.
 - If you're OK with Node.js asynchronous programming, you may write your program that calls the JavaScript API of TypeScript/Rollup, and invoke it from any file watcher like [chokidar](https://www.npmjs.com/package/chokidar).
 - If speed is a priority, try [esbuild](https://esbuild.github.io/). This is super fast, but it will strip away almost all comments in your code.

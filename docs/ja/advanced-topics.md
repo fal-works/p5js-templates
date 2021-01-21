@@ -106,7 +106,9 @@ TypeScript と Rollup を両方使う場合、もう少し複雑です。次の�
     }
     ```
 
-- Rollup の TypeScript 用のプラグインをインストールして使います。[これ](https://www.npmjs.com/package/@rollup/plugin-typescript)とか[これ](https://www.npmjs.com/package/rollup-plugin-typescript2)とか。
+- Rollup の TypeScript 用プラグインをインストールして使う。次のどちらかをどうぞ。
+    - [@rollup/plugin-typescript](https://www.npmjs.com/package/@rollup/plugin-typescript)
+    - [rollup-plugin-typescript2](https://www.npmjs.com/package/rollup-plugin-typescript2)
 - あれこれ設定するのが嫌じゃなければ、[Babel](https://babeljs.io/) か何かを使ったり。
 - Node.js での非同期プログラミングができるなら、TypeScript/Rollup の JavaScript API を呼び出すような独自のプログラムを書いてしまって、[chokidar](https://www.npmjs.com/package/chokidar) などのファイルウォッチャーでそれを起動するという方法も。
-- スピードが優先なら、[esbuild](https://esbuild.github.io/) を試してみます。これは超速いんですが、コード中のコメントのほとんどすべてを削除してしまいます。
+- スピードが優先なら、[esbuild](https://esbuild.github.io/) を試してみる。これは超速いんですが、コード中のコメントのほとんどすべてを削除してしまいます。
