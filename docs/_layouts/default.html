@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
+    <!-- custom -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 
-    <link rel="icon" href="/{{ site.github.repository_name }}{{ site.favicon }}" type="image/x-icon" />
-
+    {% if site.full_url %}{% if site.favicon %}
+    <link rel="icon" href="{{ site.full_url }}{{ site.favicon }}" type="image/x-icon" />
+    {% endif %}{% endif %}
+    {% if site.full_url %}{% if site.multi_language %}
     <link rel="alternate" hreflang="x-default" href="{{site.full_url}}{{ page.logical_url | default: page.url }}">
     <link rel="alternate" hreflang="en" href="{{site.full_url}}{{ page.logical_url | default: page.url }}">
     <link rel="alternate" hreflang="ja" href="{{site.full_url}}/ja{{ page.logical_url | default: page.url }}">
+    {% endif %}{% endif %}
+    <!-- custom end -->
 
     {% if site.google_analytics %}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>

@@ -18,3 +18,4 @@ defaults:
 full_url: https://fal-works.github.io/p5js-templates
 favicon: /images/favicon.ico
 hide_github_button: false
+multi_language: true
