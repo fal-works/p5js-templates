@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
+    <meta charset="UTF-8">
     <!-- custom -->
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 
@@ -12,6 +13,7 @@
     <link rel="alternate" hreflang="en" href="{{site.full_url}}{{ page.logical_url | default: page.url }}">
     <link rel="alternate" hreflang="ja" href="{{site.full_url}}/ja{{ page.logical_url | default: page.url }}">
     {% endif %}{% endif %}
+    <link rel="stylesheet" href="{{ site.full_url }}/assets/css/custom.css">
     <!-- custom end -->
 
     {% if site.google_analytics %}
@@ -23,7 +25,6 @@
         gtag('config', '{{ site.google_analytics }}');
       </script>
     {% endif %}
-    <meta charset="UTF-8">
 
 {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">

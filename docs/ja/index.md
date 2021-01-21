@@ -14,7 +14,9 @@ logical_url: /
   </a>
 </span>
 
-![p5.js Templates](../images/p5js-templates-flowchart.svg)
+<p><div class="custom-wrapper-50">
+<img src="../images/p5js-templates-flowchart.svg" alt="p5.js Templates フローチャート" class="custom-wrapped" />
+</div></p>
 
 ## 概要
 
