@@ -14,7 +14,7 @@ logical_url: /
   </a>
 </span>
 
-![p5.js Templates](../images/flowchart.png)
+![p5.js Templates](../images/p5js-templates-flowchart.svg)
 
 ## 概要
 
