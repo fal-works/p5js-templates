@@ -8,7 +8,11 @@
 </span>
 
 <div class="custom-wrapper-50">
-<img src="./images/p5js-templates-flowchart.svg" alt="p5.js Templates flowchart" class="custom-wrapped" />
+  <img
+    src="./images/spacer.png"
+    data-src="./images/p5js-templates-flowchart.svg"
+    alt="p5.js Templates flowchart"
+    class="custom-wrapped" />
 </div>
 
 ## About

@@ -45,7 +45,11 @@ The content should be something like this:
 Now you can use hover information and code completion for p5.js functions.
 
 <div class="custom-wrapper-50">
-<img src="./images/screenshots/use-d-ts.png" alt="Use type declaration in JS files" class="custom-wrapped" />
+  <img
+    src="./images/spacer.png"
+    data-src="./images/screenshots/use-d-ts.png"
+    alt="Use type declaration in JS files"
+    class="custom-wrapped" />
 </div>
 
 
