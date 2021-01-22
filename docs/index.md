@@ -103,7 +103,7 @@ Then do as follows:
 ### With Git
 
 1. Click the "Use this template" button.  
-This will copy the template and create a new repository for you.
+This will copy the template and create a new repository for you (you have to be logged in to GitHub).
 2. Click the "Code" button and check the URL for cloning the repository.
 3. Clone the repository with `git clone` command or something else.
 
